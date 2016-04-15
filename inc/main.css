@@ -1,0 +1,227 @@
+/*
+font-family: 'Titillium Web', sans-serif;
+  regular - 400
+  semibold - 600
+  bold - 700
+font-family: 'Open Sans', sans-serif;
+  regular - 400
+  bold - 700
+*/
+
+BODY {
+  margin: 0;
+  padding: 0;
+  background: #FFFFFF;
+  color: #707070;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  line-height: 1.4em;
+}
+
+IMG {
+  border: 0;
+}
+
+HR {
+  border: none 0;
+  border-top: 1pt solid #707070; /* the border */
+  height: 1pt; /* whatever the total width of the border-top and border-bottom equal */
+}
+
+A:link, A:visited {
+  color: #155B79;
+  text-decoration: none;
+}
+
+A:hover, A:active {
+  color: #F15928;
+  text-decoration: none;
+}
+
+H1 {
+  font-size: 1.7em;
+}
+
+H2 {
+  font-size: 1.5em;
+}
+
+.site-width {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.site-width:after,
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.dw-header {
+  background: #155B79;
+  color: #FFFFFF;
+  border-bottom: 1px solid #061921;
+  height: 129px;
+}
+
+.dw-header .site-width {
+  height: inherit;
+}
+
+.header-left {
+  float: left;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header-right {
+  float: right;
+  text-align: right;
+  height: inherit;
+  position: relative;
+  width: 70%;
+}
+
+.top-menu {
+  font-weight: 600;
+  color: #26A5DB;
+  padding-top: 0.8em;
+}
+
+.top-menu SPAN,
+.top-menu SPAN A:link {
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.menu {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.menu UL {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.menu UL LI {
+  float: left;
+  margin-left: 2em;
+  position: relative;
+  z-index: 99;
+  border-bottom: 5px solid transparent;
+}
+
+.menu UL LI:first-child {
+  margin-left: 0;
+}
+
+.menu UL LI:hover {
+  border-bottom: 5px solid #27AAE1;
+}
+
+.menu UL LI A:link,
+.menu UL LI A:visited,
+.menu UL LI:hover A {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 600;
+  padding-bottom: 0.9em;
+  display: block;
+}
+
+.menu UL LI UL {
+  display: none;
+}
+
+.menu UL LI:hover UL {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin: 6px 0 0 0;
+  padding: 0;
+  list-style-type: none;
+  background: #155B79;
+}
+
+.menu UL LI UL LI {
+  float: none;
+  margin-left: 0;
+  border-bottom: 0;
+  padding-bottom: 0;
+  text-align: left;
+}
+
+.menu UL LI UL LI:hover {
+  border-bottom: 0;
+}
+
+.menu UL LI UL LI A:link,
+.menu UL LI UL LI A:visited {
+  display: block;
+  white-space: nowrap;
+  line-height: 1em;
+  padding: 0.5em 1em;
+}
+
+.menu UL LI UL LI A:hover,
+.menu UL LI UL LI A:active {
+  background: #27AAE1;
+}
+
+.banner {
+  height: 645px;
+  background: #CCCCCC;
+  color: #FFFFFF;
+}
+
+.below-banner {
+  background: #27AAE1;
+  color: #155b79;
+}
+
+.wichmans {
+  height: 658px;
+  background: #18698B;
+  color: #082633;
+  border-bottom: 1px solid #1F80A9;
+}
+
+.content {
+  color: #ACACAC;
+  font-size: 106.25%;
+}
+
+.news-home {
+  background: #1F80A9;
+  color: #FFFFFF;
+}
+
+.testimonials {
+  background: #F1F2F2;
+  color: #464646;
+}
+
+@media only screen and (max-width: 800px) {
+  /* Small computer or landscape tablet */
+  .site-width {
+    width: 96%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* Tablet */
+}
+
+@media only screen and (max-width: 600px) {
+  /* Small tablet */
+}
+
+@media only screen and (max-width: 480px) {
+  /* Phone */
+}
