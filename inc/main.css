@@ -58,6 +58,24 @@ H2 {
   clear: both;
 }
 
+A.social:link, A.social:visited {
+  color: #FFFFFF;
+  line-height: 1em;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  padding: 5px;
+  border-radius: 50%;
+  border-top-right-radius: 0;
+}
+
+A.linkedin:link, A.linkedin:visited { background: #0093CC; }
+
+A.social:hover, A.social:active {
+  background: #27AAE1;
+}
+
 .dw-header {
   background: #155B79;
   color: #FFFFFF;
@@ -312,9 +330,76 @@ H2 {
 
 .wichmans {
   height: 658px;
-  background: #18698B;
+  background: #18698B url(../images/wichmans.jpg) bottom center no-repeat;
   color: #082633;
   border-bottom: 1px solid #1F80A9;
+  -webkit-box-shadow: inset 0 7px 9px -4px rgba(20,89,118,0.65);
+  -moz-box-shadow: inset 0 7px 9px -4px rgba(20,89,118,0.65);
+  box-shadow: inset 0 7px 9px -4px rgba(20,89,118,0.65);
+}
+
+.wichmans .site-width {
+  padding-top: 2.5em;
+}
+
+.wichman-left {
+  float: left;
+  width: 50%;
+  padding-top: 1.5em;
+}
+
+.wichman-right {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+.wl-wrap {
+  float: right;
+  -webkit-shape-outside: polygon(60% 3.5em, 60% 100%, 0 100%);
+  shape-outside: polygon(60% 3.5em, 60% 100%, 0 100%);
+  width: 100%;
+  height: 200px;
+}
+
+.wr-wrap {
+  float: left;
+  -webkit-shape-outside: polygon(0 3.5em, 40% 3.5em, 100% 100%, 0 100%);
+  shape-outside: polygon(0 3.5em, 40% 3.5em, 100% 100%, 0 100%);
+  width: 100%;
+  height: 200px;
+}
+
+.wichmans H5 {
+  margin: 0 0 0.5em;
+  font-weight: 600;
+  font-size: 143.75%;
+  line-height: 1em;
+  color: #EBEBEB;
+}
+
+.wichmans A.social:link,
+.wichmans A.social:visited {
+  font-size: 120%;
+  margin: 1.8em 0;
+}
+
+.wichmans A.more:link,
+.wichmans A.more:visited {
+  background: #0E3749;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0.3em 0.9em;
+  display: inline-block;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.wichmans A.more:hover,
+.wichmans A.more:active {
+  background: #27AAE1;
 }
 
 .content {
@@ -331,6 +416,8 @@ H2 {
   background: #F1F2F2;
   color: #464646;
 }
+
+
 
 @media only screen and (max-width: 1086px) {
   .cycle-pager {
@@ -446,6 +533,23 @@ H2 {
     height: 1em;
     width: auto;
   }
+
+  .wichmans {
+    height: 520px;
+    background-size: 100% auto;
+  }
+
+  .wichmans .site-width {
+    padding-top: 1.5em;
+  }
+
+  .wichman-left {
+    padding-top: 2em;
+  }
+
+  .wl-wrap, .wr-wrap {
+    height: 240px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -484,6 +588,37 @@ H2 {
 
   .banner .one-third:first-child {
     text-align: center;
+  }
+
+  .wichmans {
+    height: 400px;
+    background-size: 94% auto;
+  }
+
+  .wichman-left {
+    width: 45%;
+    padding-top: 1em;
+  }
+
+  .wichman-right {
+    width: 45%;
+  }
+
+  .wl-wrap {
+    -webkit-shape-outside: polygon(100% 1em, 100% 100%, 0 100%);
+    shape-outside: polygon(100% 1em, 100% 100%, 0 100%);
+    height: 220px;
+  }
+
+  .wr-wrap {
+    -webkit-shape-outside: polygon(0 1em, 100% 100%, 0 100%);
+    shape-outside: polygon(0 1em, 100% 100%, 0 100%);
+    height: 220px;
+  }
+
+  .wichmans H5 {
+    font-size: 112%;
+    margin-bottom: 0.2em;
   }
 }
 
@@ -568,5 +703,51 @@ H2 {
 
   .banner A IMG {
     height: 1em;
+  }
+
+  .wichmans {
+    height: 290px;
+    font-size: 80%;
+    line-height: 1.2em;
+  }
+
+  .wichman-left {
+    width: 49%;
+    padding-top: 0.5em;
+  }
+
+  .wichman-right {
+    width: 48%;
+  }
+
+  .wl-wrap, .wr-wrap {
+    height: 172px;
+  }
+
+  .wichmans H5 {
+    font-size: 100%;
+    margin-bottom: 0.2em;
+  }
+
+  .wichmans A.more:link,
+  .wichmans A.more:visited {
+    font-size: 80%;
+    padding: 0.4em 0.9em;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  /* Small Phone */
+  .wl-wrap, .wr-wrap {
+    height: 215px;
+  }
+
+  .wichmans H5 {
+    font-size: 82%;
+  }
+
+  .wichmans A.social:link,
+  .wichmans A.social:visited {
+    margin: 1em 0;
   }
 }
