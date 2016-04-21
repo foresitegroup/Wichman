@@ -356,18 +356,18 @@ A.social:hover, A.social:active {
 
 .wl-wrap {
   float: right;
-  -webkit-shape-outside: polygon(60% 3.5em, 60% 100%, 0 100%);
-  shape-outside: polygon(60% 3.5em, 60% 100%, 0 100%);
+  -webkit-shape-outside: polygon(58% 20%, 100% 20%, 100% 100%, 40% 100%, 40% 50%);
+  shape-outside: polygon(58% 20%, 100% 20%, 100% 100%, 40% 100%, 40% 50%);
   width: 100%;
-  height: 200px;
+  height: 250px;
 }
 
 .wr-wrap {
   float: left;
-  -webkit-shape-outside: polygon(0 3.5em, 40% 3.5em, 100% 100%, 0 100%);
-  shape-outside: polygon(0 3.5em, 40% 3.5em, 100% 100%, 0 100%);
+  -webkit-shape-outside: polygon(0 13%, 40% 13%, 50% 40%, 50% 100%, 0 100%);
+  shape-outside: polygon(0 13%, 40% 13%, 50% 40%, 50% 100%, 0 100%);
   width: 100%;
-  height: 200px;
+  height: 250px;
 }
 
 .wichmans H5 {
@@ -402,19 +402,97 @@ A.social:hover, A.social:active {
   background: #27AAE1;
 }
 
-.content {
+.content-home {
   color: #ACACAC;
   font-size: 106.25%;
+  line-height: 1.5em;
+  padding: 5em 0;
+  -webkit-box-shadow: inset 0 7px 9px -4px rgba(25, 25, 25, 0.2);
+  -moz-box-shadow: inset 0 7px 9px -4px rgba(25, 25, 25, 0.2);
+  box-shadow: inset 0 7px 9px -4px rgba(25, 25, 25, 0.2);
+}
+
+.content-home .col1 {
+  float: left;
+  width: 58%;
+}
+
+.content-home .col2 {
+  float: right;
+  width: 36%;
+  font-weight: 600;
+  font-size: 277%;
+  line-height: 52px;
+  color: #0E3749;
+}
+
+.content-home H2 {
+  margin: 0 0 0.1em;
+  font-weight: 600;
+  font-size: 400%;
+  line-height: 0.95em;
+  color: #1F80A9;
+}
+
+.content-home A:link,
+.content-home A:visited {
+  color: #155B79;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 0.2em 1em;
+  margin-top: 1.2em;
+  display: inline-block;
+  border: 4px solid #F05A29;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.content-home A:hover,
+.content-home A:active {
+  color: #F05A29;
+  border-color: #155B79;
+}
+
+.content-home .col2 UL {
+  margin: 0.2em 0 0 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.content-home .col2 UL LI {
+  background-repeat: no-repeat;
+  height: 52px;
+  padding: 0 0 0.6em 75px;
 }
 
 .news-home {
-  background: #1F80A9;
+  background: linear-gradient(to right, #1F80A9 0%, #1F80A9 50%, #155B79 50%, #155B79 100%);
   color: #FFFFFF;
+  padding: 3em 0;
+  -webkit-box-shadow: 0 -7px 9px -4px rgba(25, 25, 25, 0.2);
+  -moz-box-shadow: 0 -7px 9px -4px rgba(25, 25, 25, 0.2);
+  box-shadow: 0 -7px 9px -4px rgba(25, 25, 25, 0.2);
+}
+
+.news-home .col1 {
+  float: left;
+  width: 45%;
+}
+
+.news-home .col2 {
+  float: right;
+  width: 45%;
 }
 
 .testimonials {
   background: #F1F2F2;
   color: #464646;
+  padding: 3em 0;
+}
+
+.dw-footer {
+  padding: 3em 0 1em;
 }
 
 
@@ -547,8 +625,12 @@ A.social:hover, A.social:active {
     padding-top: 2em;
   }
 
-  .wl-wrap, .wr-wrap {
-    height: 240px;
+  .content-home .col2 {
+    font-size: 200%;
+  }
+
+  .content-home .col2 UL LI {
+    padding-left: 65px;
   }
 }
 
@@ -591,34 +673,36 @@ A.social:hover, A.social:active {
   }
 
   .wichmans {
-    height: 400px;
+    height: 380px;
     background-size: 94% auto;
   }
 
   .wichman-left {
-    width: 45%;
     padding-top: 1em;
   }
 
   .wichman-right {
-    width: 45%;
-  }
-
-  .wl-wrap {
-    -webkit-shape-outside: polygon(100% 1em, 100% 100%, 0 100%);
-    shape-outside: polygon(100% 1em, 100% 100%, 0 100%);
-    height: 220px;
-  }
-
-  .wr-wrap {
-    -webkit-shape-outside: polygon(0 1em, 100% 100%, 0 100%);
-    shape-outside: polygon(0 1em, 100% 100%, 0 100%);
-    height: 220px;
+    width: 48%;
   }
 
   .wichmans H5 {
-    font-size: 112%;
+    font-size: 122%;
     margin-bottom: 0.2em;
+  }
+
+  .content-home .col1,
+  .content-home .col2 {
+    float: none;
+    width: 100%;
+  }
+
+  .content-home .col2 {
+    font-size: 277%;
+    padding-top: 1em;
+  }
+
+  .content-home .col2 UL LI {
+    padding-left: 75px;
   }
 }
 
@@ -706,22 +790,28 @@ A.social:hover, A.social:active {
   }
 
   .wichmans {
-    height: 290px;
+    height: 280px;
     font-size: 80%;
     line-height: 1.2em;
   }
 
   .wichman-left {
     width: 49%;
-    padding-top: 0.5em;
+    padding-top: 0.6em;
   }
 
   .wichman-right {
     width: 48%;
   }
 
-  .wl-wrap, .wr-wrap {
-    height: 172px;
+  .wl-wrap {
+    -webkit-shape-outside: polygon(55% 26%, 100% 26%, 100% 100%, 40% 50%);
+    shape-outside: polygon(55% 26%, 100% 26%, 100% 100%, 40% 50%);
+  }
+
+  .wr-wrap {
+    -webkit-shape-outside: polygon(0 18%, 40% 18%, 48% 45%, 0 100%);
+    shape-outside: polygon(0 18%, 40% 18%, 48% 45%, 0 100%);
   }
 
   .wichmans H5 {
@@ -734,12 +824,34 @@ A.social:hover, A.social:active {
     font-size: 80%;
     padding: 0.4em 0.9em;
   }
+
+  .content-home H2 {
+    font-size: 300%;
+  }
+
+  .content-home .col2 {
+    font-size: 240%;
+  }
+
+  .content-home .col2 UL LI {
+    padding-left: 70px;
+  }
 }
 
 @media only screen and (max-width: 390px) {
   /* Small Phone */
-  .wl-wrap, .wr-wrap {
-    height: 215px;
+  .wichman-left {
+    padding-top: 0.7em;
+  }
+
+  .wl-wrap {
+    -webkit-shape-outside: polygon(55% 30%, 100% 30%, 100% 100%, 40% 50%);
+    shape-outside: polygon(55% 30%, 100% 30%, 100% 100%, 40% 50%);
+  }
+
+  .wr-wrap {
+    -webkit-shape-outside: polygon(0 30%, 40% 30%, 48% 45%, 0 100%);
+    shape-outside: polygon(0 30%, 40% 30%, 48% 45%, 0 100%);
   }
 
   .wichmans H5 {
@@ -748,6 +860,6 @@ A.social:hover, A.social:active {
 
   .wichmans A.social:link,
   .wichmans A.social:visited {
-    margin: 1em 0;
+    margin: 1.5em 0;
   }
 }
