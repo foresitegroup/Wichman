@@ -39,46 +39,7 @@
 
           <input type="checkbox" id="show-menu" role="button">
           <label for="show-menu" id="menu-toggle"></label>
-          <div class="menu">
-            <ul>
-              <li>
-                <a href="#" class="drop">OUR PRACTICE</a>
-                <ul>
-                  <li><a href="#">Mark Wichman, MD</a></li>
-                  <li><a href="#">Matthew Wichman, MD</a></li>
-                  <li><a href="#">Hours &amp; Location</a></li>
-                  <li><a href="#">Schedule an Appointment</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#" class="drop">SPORTS MEDICINE</a>
-                <ul>
-                  <li><a href="#">Knee</a></li>
-                  <li><a href="#">Shoulder</a></li>
-                  <li><a href="#">Hip</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#" class="drop">EDUCATION</a>
-                <ul>
-                  <li><a href="#">Learning Center</a></li>
-                  <li><a href="#">Media</a></li>
-                  <li><a href="#">Medical Definitions &amp; Links</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#" class="drop">PATIENT CARE</a>
-                <ul>
-                  <li><a href="#">Diagnosis</a></li>
-                  <li><a href="#">Pre-Op Care</a></li>
-                  <li><a href="#">Procedures</a></li>
-                  <li><a href="#">Post-Op Care</a></li>
-                </ul>
-              </li>
-              <li><a href="#">CONTACT</a></li>
-              <li class="mobile"><a href="tel:888-123-4567">APPOINTMENTS</a></li>
-            </ul>
-          </div>
+          <div class="menu"><?php include "menu.php"; ?></div>
         </div>
       </div>
     </div>
@@ -86,7 +47,7 @@
     <script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
     <script type="text/javascript" src="inc/jquery.cycle2.scrollVert.min.js"></script>
     <div class="cycle-slideshow" data-cycle-slides="> div" data-cycle-timeout="8000" data-cycle-pause-on-hover="true" data-cycle-fx="scrollVert" data-cycle-pager-template="<span></span>">
-      <p class="cycle-pager"></p>
+      <p class="cycle-pager vertical"></p>
       <div style="background-image: url(images/banner-hockey.jpg);">
         <div class="site-width">
           <h3>MATTHEW WICHMAN, MD &amp; MARK WICHMAN, MD ENJOY SERVING THE COMMUNITY THEY LIVE AND WORK IN.</h3>
@@ -193,21 +154,43 @@
     </div>
 
     <div class="testimonials">
-      <div class="site-width">
-        ROTATING TESTIMONIALS (FULL WIDTH)<br>
-        "I would like to thank you for the amazing job you did in the surgery repairing my right rotator cup. It certainly was a long road to recovery, but it now feels free of pain and has near 100% range of motion. I cannot describe the blessing this has been, my work is what not only provides me with an income of making a living but is also my dignity that gives me self worth and allows me to continue my trade that I enjoy doing."<br>
-        <br>
-        - Steve S., Rotator Cup
+      <div class="cycle-slideshow site-width" data-cycle-slides="> div" data-cycle-timeout="8000" data-cycle-pause-on-hover="true" data-cycle-pager-template="<span></span>">
+        <p class="cycle-pager"></p>
+        <div>
+          "I would like to thank you for the amazing job you did in the surgery repairing my right rotator cup. It certainly was a long road to recovery, but it now feels free of pain and has near 100% range of motion. I cannot describe the blessing this has been, my work is what not only provides me with an income of making a living but is also my dignity that gives me self worth and allows me to continue my trade that I enjoy doing."<br>
+          <br>
+          - Steve S., Rotator Cup
+        </div>
+
+        <div>
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."<br>
+          <br>
+          - John S., Hip
+        </div>
+
+        <div>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in pulvinar risus. Cras eleifend leo magna, vel ultrices lacus varius nec. Proin mollis ultricies lorem, ut varius velit sagittis eget. Nam justo tellus, lacinia luctus nisl ac, porta porta metus. Duis at est ut elit pharetra pretium. Morbi a dui libero. Praesent eget magna dui. Duis bibendum pharetra risus, quis tincidunt mauris dignissim vel."<br>
+          <br>
+          - Martha J., Knee
+        </div>
       </div>
     </div>
-
+    
     <div class="dw-footer">
       <div class="site-width">
-        FOOTER MENU<br>
-        <br>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
-        <br>
-        &copy; <?php echo date("Y"); ?> Drwichman.com
+        <?php include "menu.php"; ?>
+
+        <div style="clear: both;"></div>
+
+        <div class="social">
+          <a href="#" class="social youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+          <a href="#" class="social linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a href="#" class="social facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        </div>
+
+        <div class="copyright">
+          &copy; <?php echo date("Y"); ?> Drwichman.com
+        </div>
       </div>
     </div>
 
