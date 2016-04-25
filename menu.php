@@ -1,38 +1,38 @@
 <ul>
   <li>
-    <a href="#" class="drop">OUR PRACTICE</a>
+    <a href="<?php echo $TopDir; ?>#" class="drop">OUR PRACTICE</a>
     <ul>
-      <li><a href="#">Mark Wichman, MD</a></li>
-      <li><a href="#">Matthew Wichman, MD</a></li>
-      <li><a href="#">Hours &amp; Location</a></li>
-      <li><a href="#">Schedule an Appointment</a></li>
+      <li><a href="<?php echo $TopDir; ?>#">Mark Wichman, MD</a></li>
+      <li><a href="<?php echo $TopDir; ?>#">Matthew Wichman, MD</a></li>
+      <li><a href="<?php echo $TopDir; ?>#">Hours &amp; Location</a></li>
+      <li><a href="<?php echo $TopDir; ?>#">Schedule an Appointment</a></li>
     </ul>
   </li>
   <li>
-    <a href="#" class="drop">SPORTS MEDICINE</a>
+    <a href="<?php echo $TopDir; ?>#" class="drop">SPORTS MEDICINE</a>
     <ul>
-      <li><a href="#">Knee</a></li>
-      <li><a href="#">Shoulder</a></li>
-      <li><a href="#">Hip</a></li>
+      <li><a href="<?php echo $TopDir; ?>#">Knee</a></li>
+      <li><a href="<?php echo $TopDir; ?>#">Shoulder</a></li>
+      <li><a href="<?php echo $TopDir; ?>#">Hip</a></li>
     </ul>
   </li>
   <li>
-    <a href="#" class="drop">EDUCATION</a>
+    <a href="<?php echo $TopDir; ?>#" class="drop">EDUCATION</a>
     <ul>
-      <li><a href="#">Learning Center</a></li>
-      <li><a href="#">Media</a></li>
-      <li><a href="#">Medical Definitions &amp; Links</a></li>
+      <li><a href="<?php echo $TopDir; ?>#">Learning Center</a></li>
+      <li><a href="<?php echo $TopDir; ?>#">Media</a></li>
+      <li><a href="<?php echo $TopDir; ?>#">Medical Definitions &amp; Links</a></li>
     </ul>
   </li>
   <li>
-    <a href="#" class="drop">PATIENT CARE</a>
+    <a href="<?php echo $TopDir; ?>#" class="drop">PATIENT CARE</a>
     <ul>
-      <li><a href="#">Diagnosis</a></li>
-      <li><a href="#">Pre-Op Care</a></li>
-      <li><a href="#">Procedures</a></li>
-      <li><a href="#">Post-Op Care</a></li>
+      <li><a href="<?php echo $TopDir; ?>#">Diagnosis</a></li>
+      <li><a href="<?php echo $TopDir; ?>#">Pre-Op Care</a></li>
+      <li><a href="<?php echo $TopDir; ?>#">Procedures</a></li>
+      <li><a href="<?php echo $TopDir; ?>#">Post-Op Care</a></li>
     </ul>
   </li>
-  <li class="contact"><a href="#">CONTACT</a></li>
+  <li class="contact"><a href="<?php echo $TopDir; ?>#">CONTACT</a></li>
   <li class="mobile"><a href="tel:888-123-4567">APPOINTMENTS</a></li>
 </ul>

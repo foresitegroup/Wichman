@@ -24,7 +24,7 @@ IMG {
 
 HR {
   border: none 0;
-  border-top: 1pt solid #707070; /* the border */
+  border-top: 1pt solid #1F80A9; /* the border */
   height: 1pt; /* whatever the total width of the border-top and border-bottom equal */
 }
 
@@ -76,6 +76,24 @@ A.facebook:link, A.facebook:visited { background: #3b5b9b; }
 
 A.social:hover, A.social:active {
   background: #27AAE1;
+}
+
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+ 
+.video iframe,
+.video object,
+.video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .dw-header {
@@ -477,6 +495,15 @@ A.social:hover, A.social:active {
   box-shadow: 0 -7px 9px -4px rgba(25, 25, 25, 0.2);
 }
 
+.news-home .header {
+  color: #E1E1E1;
+  font-weight: 600;
+  font-size: 156.25%;
+  line-height: 1em;
+  padding-bottom: 3.3em;
+  position: relative;
+}
+
 .news-home .col1 {
   float: left;
   width: 45%;
@@ -487,12 +514,62 @@ A.social:hover, A.social:active {
   width: 45%;
 }
 
+.news-home .post-date {
+  font-weight: 600;
+  font-size: 75%;
+  line-height: 1em;
+  text-transform: uppercase;
+  color: #E1E1E1;
+}
+
+.news-home H3 {
+  font-weight: 700;
+  font-size: 212.5%;
+  line-height: 1em;
+  text-transform: uppercase;
+  color: #0E3749;
+  margin: 0.2em 0 0.5em;
+}
+
+.news-home .col2 H3 {
+  color: #2496C6;
+}
+
+.news-home A.readmore:link,
+.news-home A.readmore:visited {
+  color: #FFFFFF;
+  font-weight: 600;
+  padding: 0.2em 1em;
+  display: inline-block;
+  border: 4px solid #155B79;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin-top: 3em;
+}
+
+.news-home .col2 A.readmore:link,
+.news-home .col2 A.readmore:visited {
+  border-color: #2496C6;
+}
+
+.news-home A.readmore:hover,
+.news-home A.readmore:active,
+.news-home .col2 A.readmore:hover,
+.news-home .col2 A.readmore:active {
+  color: #DDDDDD;
+  border-color: #FFFFFF;
+}
+
 .testimonials {
   background: #F1F2F2;
   color: #464646;
   padding: 3em 0;
   text-align: center;
   font-size: 112.5%;
+  -webkit-box-shadow: inset 0 7px 9px -4px rgba(25, 25, 25, 0.2);
+  -moz-box-shadow: inset 0 7px 9px -4px rgba(25, 25, 25, 0.2);
+  box-shadow: inset 0 7px 9px -4px rgba(25, 25, 25, 0.2);
 }
 
 .testimonials .cycle-slideshow {
@@ -600,6 +677,193 @@ DIV.social A {
   font-size: 87.5%;
   line-height: 1em;
   padding: 3em 0 1em;
+}
+
+.blog-index, .blog-single {
+  height: 277px;
+  background-image: url(../images/header-news.jpg);
+  background-position: center center;
+  background-size: cover;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 375%;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-box-shadow: inset 0 7px 9px -4px rgba(0,0,0,0.65);
+  -moz-box-shadow: inset 0 7px 9px -4px rgba(0,0,0,0.65);
+  box-shadow: inset 0 7px 9px -4px rgba(0,0,0,0.65);
+}
+
+.blog-single {
+  height: 448px;
+  font-size: 450%;
+  line-height: 1.2em;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.45);
+  height: inherit;
+}
+
+.blog-single H5 {
+  font-size: 16px;
+  line-height: 1em;
+  margin: 3em 0 0;
+}
+
+.blog-index .site-width,
+.blog-single .site-width {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.entry-header {
+  padding-top: 6em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.entry-header H3 {
+  margin: 0 0 0.6em;
+  line-height: 1.1em;
+  font-size: 450%;
+  font-weight: 700;
+  color: #1F80A9;
+}
+
+.entry-header H4 {
+  margin: 0 0 2.5em;
+  font-weight: 700;
+  color: #1F80A9;
+}
+
+.entry-content {
+  text-align: center;
+  font-size: 118.75%;
+  line-height: 1.6em;
+  color: #636262;
+  padding-bottom: 5em;
+}
+
+.entry-content.single {
+  padding: 2.5em 0;
+  text-align: left;
+}
+
+.entry-content A.readmore:link,
+.entry-content A.readmore:visited {
+  color: #155B79;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 0.2em 1em;
+  margin-top: 1.2em;
+  display: inline-block;
+  border: 4px solid #F05A29;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.entry-content A.readmore:hover,
+.entry-content A.readmore:active {
+  color: #F05A29;
+  border-color: #155B79;
+}
+
+#content HR:last-of-type {
+  display: none;
+}
+
+.elm-wrapper {
+  margin: 0;
+  background: #1F80A9;
+  padding: 3.6em;
+  -webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
+}
+
+.elm-button {
+  background: transparent;
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0.2em 1em;
+  display: inline-block;
+  border: 4px solid #155B79;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: 0;
+}
+
+.elm-button:hover,
+.elm-button:active,
+.elm-button:focus {
+  background: transparent !important;
+  color: #DDDDDD;
+  border-color: #FFFFFF;
+}
+
+.entry-content .tags-links {
+  font-size: 14px;
+}
+
+.entry-content IMG {
+  max-width: 100%;
+  height: auto;
+}
+
+.entry-content .video {
+  margin: 2em 0;
+}
+
+.footer-nav {
+  background: #1F80A9;
+  padding: 3.1em 0;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1em;
+  -webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
+}
+
+.footer-nav .nav-prev,
+.footer-nav .nav-home,
+.footer-nav .nav-next {
+  float: left;
+  width: 33.33%;
+  min-height: 1em;
+}
+
+.footer-nav .nav-home {
+  text-align: center;
+}
+
+.footer-nav .nav-next {
+  float: right;
+  text-align: right;
+}
+
+.footer-nav A:link,
+.footer-nav A:visited {
+  color: #FFFFFF;
+}
+
+.footer-nav A:hover,
+.footer-nav A:active {
+  color: #F05A29;
+}
+
+.navigation {
+  display: none;
 }
 
 @media only screen and (max-width: 1086px) {
@@ -981,6 +1245,11 @@ DIV.social A {
   .dw-footer UL LI UL LI:nth-child(2) {
     padding-top: 0.65em;
   }
+
+  .entry-header H3,
+  .blog-single {
+    font-size: 350%;
+  }
 }
 
 @media only screen and (max-width: 390px) {
@@ -1006,5 +1275,10 @@ DIV.social A {
   .wichmans A.social:link,
   .wichmans A.social:visited {
     margin: 1.5em 0;
+  }
+
+  .entry-header H3,
+  .blog-single {
+    font-size: 300%;
   }
 }
