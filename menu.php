@@ -1,6 +1,6 @@
 <ul>
   <li>
-    <a href="<?php echo $TopDir; ?>#" class="drop">OUR PRACTICE</a>
+    <a href="<?php echo $TopDir; ?>our-practice.php" class="drop">OUR PRACTICE</a>
     <ul>
       <li><a href="<?php echo $TopDir; ?>#">Mark Wichman, MD</a></li>
       <li><a href="<?php echo $TopDir; ?>#">Matthew Wichman, MD</a></li>

@@ -58,6 +58,24 @@ H2 {
   clear: both;
 }
 
+A.orange-button:link,
+A.orange-button:visited {
+  color: #155B79;
+  font-weight: 600;
+  padding: 0.4em 0.8em;
+  display: inline-block;
+  border: 4px solid #F05A29;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+A.orange-button:hover,
+A.orange-button:active {
+  color: #F05A29;
+  border-color: #155B79;
+}
+
 A.social:link, A.social:visited {
   color: #FFFFFF;
   line-height: 1em;
@@ -94,6 +112,16 @@ A.social:hover, A.social:active {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.one-half {
+  float: left;
+  width: 47%;
+  margin-right: 6%;
+}
+
+.last {
+  margin-right: 0;
 }
 
 .dw-header {
@@ -358,8 +386,23 @@ A.social:hover, A.social:active {
   box-shadow: inset 0 7px 9px -4px rgba(20,89,118,0.65);
 }
 
+.wichmans.gray {
+  height: 639px;
+  background: #E1E1E1 url(../images/wichmans-gray.jpg) bottom center no-repeat;
+  color: #155B79;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 87.5%;
+}
+
 .wichmans .site-width {
   padding-top: 2.5em;
+}
+
+.wichmans.gray .site-width {
+  padding-top: 3em;
 }
 
 .wichman-left {
@@ -390,12 +433,21 @@ A.social:hover, A.social:active {
   height: 250px;
 }
 
+.wichmans.gray .wr-wrap {
+  shape-margin: 1em;
+}
+
 .wichmans H5 {
   margin: 0 0 0.5em;
   font-weight: 600;
   font-size: 143.75%;
   line-height: 1em;
   color: #EBEBEB;
+}
+
+.wichmans.gray H5 {
+  font-family: 'Titillium Web', sans-serif;
+  color: #0E3749;
 }
 
 .wichmans A.social:link,
@@ -502,6 +554,17 @@ A.social:hover, A.social:active {
   line-height: 1em;
   padding-bottom: 3.3em;
   position: relative;
+}
+
+.news-home .header IMG {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 75%;
+  right: 13%;
+  -webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
 }
 
 .news-home .col1 {
@@ -866,6 +929,27 @@ DIV.social A {
   display: none;
 }
 
+.our-practice {
+  padding: 3.5em 0;
+}
+
+.our-practice H3 {
+  margin: 0 0 0.6em;
+  font-size: 200%;
+  line-height: 1em;
+  font-weight: 700;
+  color: #0E3749;
+}
+
+.our-practice A.orange-button:link,
+.our-practice A.orange-button:visited {
+  font-size: 93.75%;
+  border-width: 3px;
+  margin-top: 2em;
+}
+
+
+
 @media only screen and (max-width: 1086px) {
   .cycle-pager.vertical {
     right: 0.5%;
@@ -981,7 +1065,8 @@ DIV.social A {
     width: auto;
   }
 
-  .wichmans {
+  .wichmans,
+  .wichmans.gray {
     height: 520px;
     background-size: 100% auto;
   }
@@ -990,8 +1075,16 @@ DIV.social A {
     padding-top: 1.5em;
   }
 
+  .wichmans.gray .site-width {
+    padding-top: 2.5em;
+  }
+
   .wichman-left {
     padding-top: 2em;
+  }
+
+  .wichmans.gray .wr-wrap {
+    shape-margin: 0;
   }
 
   .content-home .col2 {
@@ -1000,6 +1093,10 @@ DIV.social A {
 
   .content-home .col2 UL LI {
     padding-left: 65px;
+  }
+
+  .news-home .header IMG {
+    right: 8%;
   }
 
   .dw-footer UL {
@@ -1037,6 +1134,18 @@ DIV.social A {
 
 @media only screen and (max-width: 600px) {
   /* Small tablet */
+  .one-half {
+    float: none;
+    width: 100%;
+    margin: 0 0 5em;
+  }
+
+  .one-half.last {
+    float: none;
+    width: 100%;
+    margin: 0;
+  }
+
   .cycle-slideshow .site-width H3 {
     margin: 0 0 0.4em;
     line-height: 1em;
@@ -1069,9 +1178,14 @@ DIV.social A {
     text-align: center;
   }
 
-  .wichmans {
+  .wichmans,
+  .wichmans.gray {
     height: 380px;
     background-size: 94% auto;
+  }
+
+  .wichmans.gray .site-width {
+    padding-top: 1.5em;
   }
 
   .wichman-left {
@@ -1100,6 +1214,40 @@ DIV.social A {
 
   .content-home .col2 UL LI {
     padding-left: 75px;
+  }
+
+  .news-home {
+    background: linear-gradient(to bottom, #1F80A9 0%, #1F80A9 50%, #155B79 50%, #155B79 100%);
+    padding: 0;
+  }
+
+  .news-home .site-width {
+    width: 100%;
+  }
+
+  .news-home .header {
+    box-sizing: border-box;
+    padding: 2em 2% 0;
+  }
+
+  .news-home .header IMG {
+    display: none;
+  }
+  
+  .news-home .col1,
+  .news-home .col2 {
+    float: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 3em 2%;
+  }
+
+  .news-home .col1 {
+    background: #1F80A9;
+  }
+
+  .news-home .col2 {
+    background: #155B79;
   }
 }
 
@@ -1186,7 +1334,8 @@ DIV.social A {
     height: 1em;
   }
 
-  .wichmans {
+  .wichmans,
+  .wichmans.gray {
     height: 280px;
     font-size: 80%;
     line-height: 1.2em;
@@ -1195,6 +1344,10 @@ DIV.social A {
   .wichman-left {
     width: 49%;
     padding-top: 0.6em;
+  }
+
+  .wichmans.gray .wichman-left {
+    padding-top: 2em;
   }
 
   .wichman-right {

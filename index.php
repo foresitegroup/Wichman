@@ -98,6 +98,7 @@ include "header.php";
   <div class="site-width">
     <div class="header">
       IN THE NEWS
+      <img src="images/news-home.jpg" alt="">
     </div>
 
     <div class="col1">
