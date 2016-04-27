@@ -21,14 +21,14 @@ include "header.php";
         <img src="images/banner-logo-highlanders.png" alt="">
       </div>
 
-      <a href="#">LEARN MORE</a>
+      <a href="#" class="orange-button">LEARN MORE</a>
     </div>
   </div>
   <div style="background-image: url(images/banner-bicycles.jpg);">
     <div class="site-width">
       <h2>SPORTS MEDICINE</h2>
       We Specialize in <strong>Sports Medicine</strong>, <strong>Knee</strong>, <strong>Shoulder</strong> and <strong>Hip</strong>.<br>
-      <a href="#" class="more-bike">DISCOVER MORE</a>
+      <a href="#" class="orange-button more-bike">DISCOVER MORE</a>
     </div>
   </div>
 </div>

@@ -295,14 +295,8 @@ A.social:hover, A.social:active {
 .cycle-slideshow .site-width A:visited {
   color: #FFFFFF;
   font-size: 24px;
-  font-weight: 600;
   padding: 0.2em 1em;
   margin-top: 1.2em;
-  display: inline-block;
-  border: 4px solid #F05A29;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
 }
 
 .cycle-slideshow .site-width A:hover,
@@ -948,6 +942,119 @@ DIV.social A {
   margin-top: 2em;
 }
 
+.affiliated {
+  padding: 3em 0;
+  background: #1F80A9;
+  color: #FFFFFF;
+  font-size: 106.25%;
+  margin-top: 7em;
+  -webkit-box-shadow: 0 -7px 9px -4px rgba(25, 25, 25, 0.2);
+  -moz-box-shadow: 0 -7px 9px -4px rgba(25, 25, 25, 0.2);
+  box-shadow: 0 -7px 9px -4px rgba(25, 25, 25, 0.2);
+}
+
+.affiliated .col1 {
+  float: left;
+  width: 39.5%;
+  font-size: 129%;
+  font-weight: 600;
+  position: relative;
+  padding-top: 7.7em;
+}
+
+.affiliated .col1 .ah-pic {
+  position: absolute;
+  top: -7em;
+  left: 0;
+  -webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);
+  max-width: 100%;
+  height: auto;
+}
+
+.affiliated .col1 A {
+  font-size: 55%;
+}
+
+.affiliated .col1 UL {
+  margin: 0 0 0 0.4em;
+  padding: 0 0 0 0.4em;
+  list-style-type: none;
+}
+
+.affiliated .col1 UL LI {
+  padding-top: 1.25em;
+  line-height: 1em;
+}
+
+.affiliated .col1 UL LI:before {
+  font-family: Arial, Helvetica, sans-serif;
+  content: "\2022";
+  display: block;
+  position: relative;
+  max-width: 0;
+  max-height: 0;
+  left: -0.8em;
+  color: #0E3749;
+}
+
+.affiliated .col2 {
+  float: right;
+  width: 56.2%;
+  line-height: 1.8em;
+}
+
+.affiliated .col2 H3 {
+  margin: 0 0 0.5em;
+  font-weight: 600;
+  font-size: 311%;
+  line-height: 1em;
+  color: #0E3749;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel .carousel-buttons {
+  width: 100%;
+  position: absolute;
+  top: 42%;
+}
+
+.carousel .carousel-buttons #prev,
+.carousel .carousel-buttons #next {
+  display: inline-block;
+  font-size: 40px;
+  line-height: 1em;
+  float: left;
+}
+
+.carousel .carousel-buttons #next {
+  float: right;
+}
+
+.carousel A:link, .carousel A:visited {
+  color: #868279;
+}
+
+.carousel A:hover, .carousel A:active {
+  color: #252525;
+}
+
+.carousel .carousel-shadow {
+  height: 1em;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  -webkit-box-shadow: inset 0 7px 9px -4px rgba(25,25,25,0.3);
+  -moz-box-shadow: inset 0 7px 9px -4px rgba(25,25,25,0.3);
+  box-shadow: inset 0 7px 9px -4px rgba(25,25,25,0.3);
+}
+
+
+
 
 
 @media only screen and (max-width: 1086px) {
@@ -1126,6 +1233,18 @@ DIV.social A {
   .dw-footer UL LI UL LI:nth-child(4) {
     padding-top: 0.65em;
   }
+
+  .affiliated {
+    margin-top: 6em;
+  }
+
+  .affiliated .col1 {
+    padding-top: 5.8em;
+  }
+
+  .affiliated .col1 .ah-pic {
+    top: -5.8em;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1248,6 +1367,21 @@ DIV.social A {
 
   .news-home .col2 {
     background: #155B79;
+  }
+
+  .affiliated .col1,
+  .affiliated .col2 {
+    float: none;
+    width: 100%;
+  }
+
+  .affiliated .col1 {
+    padding-top: 1.5em;
+  }
+
+  .affiliated .col1 .ah-pic {
+    position: static;
+    margin-bottom: 1.5em;
   }
 }
 

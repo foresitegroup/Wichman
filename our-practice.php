@@ -113,4 +113,48 @@ include "header.php";
   </div>
 </div>
 
+<div class="affiliated">
+  <div class="site-width">
+    <div class="col2">
+      <h3>AFFILIATED HOSPITALS</h3>
+      We are affiliated within the Aurora network inlcuding: The Sinai Medical Center, West Allis Medical Center and the Medicial Center in Grafton. Working within the Aurora network presents us with the  necessary tools needed and to share a common goal of successfully treating each person individually.<br>
+      <br>
+
+      Aurora Health Care is an integrated, not-for-profit, and all-for-people health care provider serving communities throughout eastern Wisconsin and northern Illinois with an approach that keep people in mind and at the heart of everything we do.
+    </div>
+
+    <div class="col1">
+      <img src="images/affiliated.jpg" alt="" class="ah-pic">
+
+      <a href="#">CLICK TO LEARN MORE:</a><br>
+
+      <ul>
+        <li>AURORA SINAI MEDICAL CENTER</li>
+        <li>AURORA WEST ALLIS MEDICAL CENTER</li>
+        <li>AURORA MEDICAL CENTER IN GRAFTON</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
+<script type="text/javascript" src="inc/jquery.cycle2.carousel.min.js"></script>
+
+<div class="carousel">
+  <div class="cycle-slideshow" data-cycle-timeout="0" data-cycle-fx="carousel" data-cycle-carousel-visible="3" data-cycle-carousel-fluid="true" data-cycle-next="#next" data-cycle-prev="#prev">
+    <img src="images/our-practice-slider1.jpg" alt="">
+    <img src="images/our-practice-slider2.jpg" alt="">
+    <img src="images/our-practice-slider3.jpg" alt="">
+  </div>
+
+  <div class="carousel-buttons">
+    <div class="site-width">
+      <a href="#" id="prev"><i class="fa fa-play-circle-o fa-rotate-180" aria-hidden="true"></i></a>
+      <a href="#" id="next"><i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
+    </div>
+  </div>
+
+  <div class="carousel-shadow"></div>
+</div>
+
 <?php include "footer.php"; ?>
