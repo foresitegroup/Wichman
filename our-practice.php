@@ -139,9 +139,10 @@ include "header.php";
 
 <script type="text/javascript" src="inc/jquery.cycle2.min.js"></script>
 <script type="text/javascript" src="inc/jquery.cycle2.carousel.min.js"></script>
+<script type="text/javascript" src="inc/jquery.cycle2.carousel.slidenumbers.js"></script>
 
 <div class="carousel">
-  <div class="cycle-slideshow" data-cycle-timeout="0" data-cycle-fx="carousel" data-cycle-carousel-visible="3" data-cycle-carousel-fluid="true" data-cycle-next="#next" data-cycle-prev="#prev">
+  <div class="caro">
     <img src="images/our-practice-slider1.jpg" alt="">
     <img src="images/our-practice-slider2.jpg" alt="">
     <img src="images/our-practice-slider3.jpg" alt="">
