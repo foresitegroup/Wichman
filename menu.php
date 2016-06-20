@@ -2,10 +2,10 @@
   <li>
     <a href="<?php echo $TopDir; ?>our-practice.php" class="drop">OUR PRACTICE</a>
     <ul>
-      <li><a href="<?php echo $TopDir; ?>#">Mark Wichman, MD</a></li>
-      <li><a href="<?php echo $TopDir; ?>#">Matthew Wichman, MD</a></li>
-      <li><a href="<?php echo $TopDir; ?>#">Hours &amp; Location</a></li>
-      <li><a href="<?php echo $TopDir; ?>#">Schedule an Appointment</a></li>
+      <li><a href="<?php echo $TopDir; ?>mark-wichman.php">Mark Wichman, MD</a></li>
+      <li><a href="<?php echo $TopDir; ?>matthew-wichman.php">Matthew Wichman, MD</a></li>
+      <li><a href="<?php echo $TopDir; ?>#">Schedule Appointment</a></li>
+      <li><a href="<?php echo $TopDir; ?>#">Locations</a></li>
     </ul>
   </li>
   <li>
@@ -19,9 +19,9 @@
   <li>
     <a href="<?php echo $TopDir; ?>#" class="drop">EDUCATION</a>
     <ul>
-      <li><a href="<?php echo $TopDir; ?>#">Learning Center</a></li>
-      <li><a href="<?php echo $TopDir; ?>#">Media</a></li>
-      <li><a href="<?php echo $TopDir; ?>#">Medical Definitions &amp; Links</a></li>
+      <li><a href="<?php echo $TopDir; ?>#">Knee &amp; Lower Leg</a></li>
+      <li><a href="<?php echo $TopDir; ?>#">Hip &amp; Thigh</a></li>
+      <li><a href="<?php echo $TopDir; ?>#">Shoulder &amp; Elbow</a></li>
     </ul>
   </li>
   <li>

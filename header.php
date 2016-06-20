@@ -7,7 +7,7 @@ if (!isset($TopDir)) $TopDir = "";
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>Drwichman.com<?php if ($PageTitle != "") echo " | " . $PageTitle; ?></title>
+    <title>DrWichman.com<?php if ($PageTitle != "") echo " | " . $PageTitle; ?></title>
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $TopDir; ?>images/favicon.ico">
     <link rel="apple-touch-icon" href="<?php echo $TopDir; ?>images/apple-touch-icon.png">
 

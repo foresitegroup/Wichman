@@ -10,7 +10,8 @@ include "header.php";
 <script type="text/javascript" src="inc/jquery.cycle2.scrollVert.min.js"></script>
 <div class="cycle-slideshow" data-cycle-slides="> div" data-cycle-timeout="8000" data-cycle-pause-on-hover="true" data-cycle-fx="scrollVert" data-cycle-pager-template="<span></span>">
   <p class="cycle-pager vertical"></p>
-  <div style="background-image: url(images/banner-hockey.jpg);">
+  
+  <div style="background-image: url(images/banner-hockey.jpg);"><div class="overlay">
     <div class="site-width">
       <h3>MATTHEW WICHMAN, MD &amp; MARK WICHMAN, MD ENJOY SERVING THE COMMUNITY THEY LIVE AND WORK IN.</h3>
       <div class="orange">Proudly serving as the Team Physician for the Milwaukee Admirals, Grafton Blackhawks &amp; Homestead Highlanders.</div>
@@ -23,14 +24,15 @@ include "header.php";
 
       <a href="#" class="orange-button">LEARN MORE</a>
     </div>
-  </div>
-  <div style="background-image: url(images/banner-bicycles.jpg);">
+  </div></div>
+
+  <div style="background-image: url(images/banner-bicycles.jpg);"><div class="overlay">
     <div class="site-width">
       <h2>SPORTS MEDICINE</h2>
       We Specialize in <strong>Sports Medicine</strong>, <strong>Knee</strong>, <strong>Shoulder</strong> and <strong>Hip</strong>.<br>
       <a href="#" class="orange-button more-bike">DISCOVER MORE</a>
     </div>
-  </div>
+  </div></div>
 </div>
 
 <div class="banner">
@@ -58,7 +60,7 @@ include "header.php";
       <h5>DR. MATTHEW P. WICHMAN, MD</h5>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
       <a href="https://www.linkedin.com/in/matthew-wichman-md-1342b477" class="social linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a><br>
-      <a href="#" class="more">READ FULL PROFILE</a>
+      <a href="matthew-wichman.php" class="more">READ FULL PROFILE</a>
     </div>
 
     <div class="wichman-right">
@@ -67,7 +69,7 @@ include "header.php";
       <h5>DR. MARK T. WICHMAN, MD</h5>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
       <a href="https://www.linkedin.com/in/drmarkwichman" class="social linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a><br>
-      <a href="#" class="more">READ FULL PROFILE</a>
+      <a href="mark-wichman.php" class="more">READ FULL PROFILE</a>
     </div>
   </div>
 </div>
@@ -82,7 +84,7 @@ include "header.php";
       <br>
       <a href="#">LEARN MORE</a>
     </div>
-    
+
     <div class="col2">
       <ul>
         <li style="background-image: url(images/icon-sports-med.png);">SPORTS MED</li>
@@ -145,15 +147,21 @@ include "header.php";
     </div>
 
     <div>
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."<br>
+      "Dr. Mark Wichman performed knee surgery on me this winter. He is an honest and confident surgeon. He was patient when answering all my questions. He changed my life. He gave me back a part of myself I haven't had in four years. He gave me the ability to function while performing daily normal activities, and high stress activities without pain.I couldn't be more pleased with my experience with him and his work. I would highly recommend him to anyone! Talented man! He exceeded my expectations!"<br>
       <br>
-      - John S., Hip
+      - TY, Brookfield, WI
     </div>
 
     <div>
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in pulvinar risus. Cras eleifend leo magna, vel ultrices lacus varius nec. Proin mollis ultricies lorem, ut varius velit sagittis eget. Nam justo tellus, lacinia luctus nisl ac, porta porta metus. Duis at est ut elit pharetra pretium. Morbi a dui libero. Praesent eget magna dui. Duis bibendum pharetra risus, quis tincidunt mauris dignissim vel."<br>
+      "Dr. Matthew Wichman was fantastic. He seemed extremely committed to getting me back to all of the activities I enjoy such as running, basketball and downhill skiing. He was patient and answered my questions. He even took time to review my MRI with me. We talked about many treatment options and he help me choose the option that worked best for me and my family."<br>
       <br>
-      - Martha J., Knee
+      - Michael J., Milwaukee, WI
+    </div>
+
+    <div>
+      "Dr. Mark Wichman has been my orthopedic doctor for 18 years. I started with a torn cartilage in my left knee that happened to me while camping/hiking in 1998. I had arthroscopic surgery on that knee. A couple of years later I tore the cartilage in my other knee and needed arthroscopic surgery on that knee. In 2005 I had a partial knee replacement on my left knee. In 2008 I had knee replacement on both knees&mdash;one in Aug; the other in Nov. I had many visits with Dr Wichman over the years." <br>
+      <br>
+      - Carol R, Franklin, WI
     </div>
   </div>
 </div>

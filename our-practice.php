@@ -14,7 +14,10 @@ include "header.php";
 
       <h5>DR. MATTHEW P. WICHMAN, MD</h5>
       Specializing in Orthopedic Surgery<br>
-      <a href="https://www.linkedin.com/in/matthew-wichman-md-1342b477" class="social linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      <br>
+      <br>
+
+      <a href="matthew-wichman.php" class="more">READ FULL PROFILE</a>
     </div>
 
     <div class="wichman-right">
@@ -22,95 +25,35 @@ include "header.php";
 
       <h5>DR. MARK T. WICHMAN, MD</h5>
       Specializing in Orthopedic Sports Medicine &amp; Orthopedic Surgery<br>
-      <a href="https://www.linkedin.com/in/drmarkwichman" class="social linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      <br>
+      <br>
+
+      <a href="mark-wichman.php" class="more">READ FULL PROFILE</a>
     </div>
   </div>
 </div>
 
+<div class="our-practice-blue">
+  <div class="site-width">
+    <h2>OUR PRACTICE</h2>
+    Mark Wichman MD and Matthew Wichman MD have been practicing orthopedic surgeons for over 30 years combined. Both doctors have families and close ties to Southeastern Wisconsin. Both Wichmans specialize in Sports Medicine and work closely with local and national sports teams.
+  </div>
+</div>
+
 <div class="site-width our-practice">
-  <div class="one-half">
-    <h3>MATTHEW P. WICHMAN, MD</h3>
-    "I truly enjoy the opportunity to build a relationship with my patients so we can work together to fully address their needs. I strive to maintain current knowledge of innovative techniques to provide my patients comprehensive care.<br>
-    <br>
+  <h3>OUR PHILOSOPHY</h3>
+  Mark Wichman MD and Matthew Wichman MD, are focused on taking care of their patients. Whether you are a long-standing patient, or a new patient to our practice, every aspect of your health care is coordinated by your physician. We promote evidence-based, patient centered medical care that builds on a strong and trusting partnership which is dedicated to improving your health.<br>
+  <br>
 
-    I earned my medical degree from the Medical College of Wisconsin in Milwaukee. My orthopaedic surgery residency was completed at McGaw Medical Center at Northwestern University in Chicago, Ill. I then completed advanced training in sports medicine through my fellowship at Santa Monica Orthopaedic and Sports Medicine Foundation in California.<br>
-    <br>
+  <h3>PATIENT ACCESS</h3>
+  We encourage visits with your physicians to help you remain current with your healthcare needs. Same day appointments are available in each location for unexpected health concerns or immediate needs. Remember if it is an emergency call 911.<br>
+  <br>
 
-    <div class="video"><iframe width="1000" height="563" src="https://www.youtube.com/embed/dWOLiBrbdns?rel=0" frameborder="0" allowfullscreen></iframe></div>
-    <br>
+  <h3>COMMITMENT TO YOU</h3>
+  We offer a varied and tailored diagnostic and treatment service for our patients to ensure the get the best care in the the most efficient way possible.<br>
+  <br>
 
-    In addition to general orthopaedics, I have special interest and training in sports medicine, adolescent sports medicine, and hip, knee and shoulder arthroscopy. I am also able to communicate in Spanish with my patients.<br>
-    <br>
-
-    In my free-time, I enjoy photography, guitar, skiing, exercising and playing a variety of sports. I am originally from the Milwaukee area and currently reside in Mequon with my wife, Aree, and our children."<br>
-    <br>
-
-    <strong>Medical Education</strong><br>
-    Medical College of Wisconsin (Degree earned: MD)<br>
-    <br>
-
-    <strong>Residency</strong><br>
-    McGaw Medical Center, Feinberg School of Medicine - Orthopaedic Surgery<br>
-    <br>
-
-    <strong>Location:</strong><br>
-    <strong>Aurora Advanced Healthcare</strong><br>
-    975 Port Washington Rd<br>
-    Grafton, WI 53204<br>
-    Phone: 262-329-8001<br>
-    <br>
-
-    <a href="https://www.aurorahealthcare.org/doctors/dr-matthew-p-wichman-md#locations"><strong>See 3 Other Locations</strong></a><br>
-    <br>
-
-    <a href="https://www.aurorahealthcare.org/doctors/dr-matthew-p-wichman-md#scheduling" class="orange-button">SCHEDULE APPOINTMENT</a>
-  </div>
-
-  <div class="one-half last">
-    <h3>MARK T. WICHMAN, MD</h3>
-    "It is my mission to provide each patient with excellent service with compassionate care. I always strive to provide my patients with the same high quality of orthopaedic care that I would offer to a member of my family.<br>
-    <br>
-
-    <div class="video"><iframe width="1000" height="563" src="https://www.youtube.com/embed/qWh9pDAu2WQ?rel=0" frameborder="0" allowfullscreen></iframe></div>
-    <br>
-
-    In 1990, I received my M.D. from the University of Wisconsin Medical School in Madison. My Orthopaedic Surgery Residency was completed through Northwestern University Medical School in Chicago in . I then completed a Fellowship in Sports Medicine at the Southern California Orthopaedic Institute in Van Nuys, California. I am Board Certified in Orthopaedic Surgery.<br>
-    <br>
-
-    I take special interest in arthroscopic shoulder and knee reconstruction. I am also the team physician for the Milwaukee Admirals Hockey Team and Wauwatosa West High School.<br>
-    <br>
-
-    Away from the clinic, I enjoy spending time with my wife and three boys, playing basketball, working out, skiing, sailing and scuba diving whenever possible."<br>
-    <br>
-
-    <strong>Medical Education</strong><br>
-    University of Wisconsin Medical School (Degree earned: MD)<br>
-    <br>
-
-    <strong>Residency</strong><br>
-    Northwestern Feinberg School of Medicine - Orthopedic Surgery<br>
-    <br>
-
-    <strong>Board Certifications</strong><br>
-    Orthopedic Surgery - American Board of Orthopaedic Surgery<br>
-    <br>
-
-    <strong>Accredited Fellowships</strong><br>
-    Sports Medicine Southern California Orthopedic Institute<br>
-    <br>
-
-    <strong>Location:</strong><br>
-    <strong>Aurora Advanced Healthcare</strong><br>
-    2999 N Mayfair Rd, Suite 100<br>
-    Wauwatosa, WI 53222<br>
-    Phone: 414-479-7000<br>
-    <br>
-
-    <a href="https://www.aurorahealthcare.org/doctors/dr-mark-t-wichman-md#locations"><strong>See 3 Other Locations</strong></a><br>
-    <br>
-
-    <a href="https://www.aurorahealthcare.org/doctors/dr-mark-t-wichman-md#scheduling" class="orange-button">SCHEDULE APPOINTMENT</a>
-  </div>
+  <a href="schedule-appointment.php" class="orange-button">SCHEDULE APPOINTMENT</a>
 </div>
 
 <div class="affiliated">
@@ -146,6 +89,9 @@ include "header.php";
     <img src="images/our-practice-slider1.jpg" alt="">
     <img src="images/our-practice-slider2.jpg" alt="">
     <img src="images/our-practice-slider3.jpg" alt="">
+    <img src="images/our-practice-slider4.jpg" alt="">
+    <img src="images/our-practice-slider5.jpg" alt="">
+    <img src="images/our-practice-slider6.jpg" alt="">
   </div>
 
   <div class="carousel-buttons">
