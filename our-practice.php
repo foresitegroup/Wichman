@@ -53,7 +53,7 @@ include "header.php";
   We offer a varied and tailored diagnostic and treatment service for our patients to ensure the get the best care in the the most efficient way possible.<br>
   <br>
 
-  <a href="schedule-appointment.php" class="orange-button">SCHEDULE APPOINTMENT</a>
+  <a href="appointments.php" class="orange-button">SCHEDULE APPOINTMENT</a>
 </div>
 
 <div class="affiliated">

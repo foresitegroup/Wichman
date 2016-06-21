@@ -4,8 +4,8 @@
     <ul>
       <li><a href="<?php echo $TopDir; ?>mark-wichman.php">Mark Wichman, MD</a></li>
       <li><a href="<?php echo $TopDir; ?>matthew-wichman.php">Matthew Wichman, MD</a></li>
-      <li><a href="<?php echo $TopDir; ?>#">Schedule Appointment</a></li>
-      <li><a href="<?php echo $TopDir; ?>#">Locations</a></li>
+      <li><a href="<?php echo $TopDir; ?>appointments.php">Schedule Appointment</a></li>
+      <li><a href="<?php echo $TopDir; ?>appointments.php#locations">Locations</a></li>
     </ul>
   </li>
   <li>

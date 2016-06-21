@@ -38,6 +38,11 @@ A:hover, A:active {
   text-decoration: none;
 }
 
+UL, OL {
+  margin: 0 0 0 0.7em;
+  padding: 0 0 0 0.7em;
+}
+
 H1 {
   font-size: 1.7em;
 }
@@ -113,6 +118,8 @@ A.social:hover, A.social:active {
   width: 100%;
   height: 100%;
 }
+
+.center { text-align: center; }
 
 .one-half {
   float: left;
@@ -1194,6 +1201,131 @@ DIV.social A {
   content: '';
 }
 
+.appointments-banner {
+  background: #1F80A9;
+  color: #FFFFFF;
+  font-size: 131.25%;
+  line-height: 1.8em;
+  padding: 3em 0;
+}
+
+.appointments-banner H2 {
+  margin: 0 0 0.25em;
+  font-weight: 600;
+  font-size: 295.23%;
+  line-height: 1em;
+}
+
+.appointments-banner SPAN,
+.appointments-banner A:link {
+  color: #092734;
+}
+
+.appointments-gray {
+  background: #F1F2F2;
+  color: #757575;
+  font-size: 106.25%;
+  line-height: 1.8em;
+  border-bottom: 1px solid #1F80A9;
+  padding: 4em 0;
+}
+
+.appointments-gray H3 {
+  margin: 0.1em 0 0.3em;
+  color: #0E3749;
+  font-weight: 700;
+  font-size: 141.17%;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.appointments-locations {
+  position: relative;
+}
+
+.appointments-locations .list {
+  width: 29%;
+  padding: 4em 3.7% 4em 0;
+  color: #767676;
+}
+
+.appointments-locations .list H3 {
+  margin: 0 0 0.8em;
+  color: #092734;
+  font-weight: 700;
+  font-size: 200%;
+  line-height: 1em;
+}
+
+.appointments-locations .list H3 SPAN {
+  color: #1F80A9;
+}
+
+.appointments-locations .list .loc-num {
+  float: left;
+  width: 8%;
+  color: #1F80A9;
+  font-weight: 700;
+  font-size: 112.5%;
+  line-height: 1em;
+}
+
+.appointments-locations .list .loc-loc {
+  float: left;
+  width: 92%;
+  font-size: 93.75%;
+  line-height: 1.3em;
+}
+
+.appointments-locations .list .loc-clear {
+  clear: both;
+  height: 1.5em;
+}
+
+.appointments-locations .list .loc-phone,
+.appointments-locations .list .loc-phone A {
+  margin-top: 1.5em;
+  color: #0C3243;
+  font-weight: 700;
+}
+
+.appointments-locations #map-canvas {
+  position: absolute !important;
+  top: 0;
+  left: 38.5%;
+  right: 0;
+  bottom: 0;
+}
+
+.appointments-banner-footer {
+  background: #1F80A9;
+  color: #FFFFFF;
+  font-size: 112.5%;
+  line-height: 1em;
+  padding: 3em 0;
+  border-top: 1px solid #FFFFFF;
+}
+
+.appointments-banner-footer H2 {
+  margin: 0 0 0.8em;
+  font-weight: 600;
+  font-size: 322.22%;
+  line-height: 1em;
+}
+
+.appointments-banner-footer A.orange-button:link,
+.appointments-banner-footer A.orange-button:visited {
+  color: #FFFFFF;
+  border-color: #155B79;
+  margin: 0 1.6%;
+}
+
+.appointments-banner-footer A.orange-button:hover,
+.appointments-banner-footer A.orange-button:active {
+  color: #155B79;
+  border-color: #F05A29;
+}
+
 
 @media only screen and (max-width: 1086px) {
   .cycle-pager.vertical {
@@ -1391,6 +1523,27 @@ DIV.social A {
   .team-left .gallery A {
     width: 45%;
   }
+
+  .appointments-banner SPAN {
+    display: block;
+  }
+
+  .appointments-locations .list H3 SPAN,
+  .appointments-locations .list .loc-phone SPAN {
+    display: block;
+  }
+
+  .appointments-locations .list .loc-num {
+    width: 10%;
+  }
+
+  .appointments-locations .list .loc-loc {
+    width: 90%;
+  }
+
+  .appointments-locations #map-canvas {
+    left: 34.5%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1553,6 +1706,22 @@ DIV.social A {
 
   .team-left .gallery A {
     width: 33%;
+  }
+
+  .appointments-locations .list {
+    width: 96%;
+  }
+
+  .appointments-locations #map-canvas {
+    position: static !important;
+    left: 0;
+    width: 100%;
+    height: 500px;
+  }
+
+  .appointments-locations .list H3 SPAN,
+  .appointments-locations .list .loc-phone SPAN {
+    display: inline;
   }
 }
 
@@ -1726,6 +1895,19 @@ DIV.social A {
   .team-left .gallery A {
     width: 45%;
   }
+
+  .appointments-banner H2 {
+    font-size: 230%;
+  }
+
+  .appointments-banner-footer H2 {
+    font-size: 300%;
+  }
+
+  .appointments-banner-footer A.orange-button:link,
+  .appointments-banner-footer A.orange-button:visited {
+    margin: 1em 0;
+  }
 }
 
 @media only screen and (max-width: 390px) {
@@ -1760,5 +1942,13 @@ DIV.social A {
 
   .our-practice-blue H2 {
     font-size: 400%;
+  }
+
+  .appointments-banner H2 {
+    font-size: 200%;
+  }
+
+  .appointments-banner-footer H2 {
+    font-size: 250%;
   }
 }

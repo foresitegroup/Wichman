@@ -88,7 +88,7 @@ include "header.php";
       <br>
       <br>
 
-      <a href="schedule-appointment.php" class="orange-button">SCHEDULE APPOINTMENT</a>
+      <a href="appointments.php" class="orange-button">SCHEDULE APPOINTMENT</a>
     </div>
   </div>
 </div>
