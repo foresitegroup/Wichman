@@ -73,7 +73,7 @@ include "header.php";
     Phone: 414-479-7000<br>
     <br>
 
-    <a href="#"><strong>See 3 Other Locations</strong></a>
+    <a href="appointments.php#locations"><strong>See 3 Other Locations</strong></a>
   </div>
 </div>
 

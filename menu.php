@@ -9,19 +9,19 @@
     </ul>
   </li>
   <li>
-    <a href="<?php echo $TopDir; ?>#" class="drop">SPORTS MEDICINE</a>
+    <a href="<?php echo $TopDir; ?>sports-medicine.php" class="drop">SPORTS MEDICINE</a>
     <ul>
-      <li><a href="<?php echo $TopDir; ?>#">Knee</a></li>
+      <li><a href="<?php echo $TopDir; ?>knee.php">Knee</a></li>
       <li><a href="<?php echo $TopDir; ?>#">Shoulder</a></li>
       <li><a href="<?php echo $TopDir; ?>#">Hip</a></li>
     </ul>
   </li>
   <li>
-    <a href="<?php echo $TopDir; ?>#" class="drop">EDUCATION</a>
+    <a href="<?php echo $TopDir; ?>education.php" class="drop">EDUCATION</a>
     <ul>
-      <li><a href="<?php echo $TopDir; ?>#">Knee &amp; Lower Leg</a></li>
-      <li><a href="<?php echo $TopDir; ?>#">Hip &amp; Thigh</a></li>
-      <li><a href="<?php echo $TopDir; ?>#">Shoulder &amp; Elbow</a></li>
+      <li><a href="<?php echo $TopDir; ?>education.php#knee">Knee &amp; Lower Leg</a></li>
+      <li><a href="<?php echo $TopDir; ?>education.php#hip">Hip &amp; Thigh</a></li>
+      <li><a href="<?php echo $TopDir; ?>education.php#shoulder">Shoulder &amp; Elbow</a></li>
     </ul>
   </li>
   <li>
@@ -33,6 +33,6 @@
       <li><a href="<?php echo $TopDir; ?>#">Post-Op Care</a></li>
     </ul>
   </li>
-  <li class="contact"><a href="<?php echo $TopDir; ?>#">CONTACT</a></li>
+  <li class="contact"><a href="<?php echo $TopDir; ?>contact.php">CONTACT</a></li>
   <li class="mobile"><a href="tel:888-123-4567">APPOINTMENTS</a></li>
 </ul>

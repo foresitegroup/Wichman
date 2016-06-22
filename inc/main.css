@@ -51,6 +51,91 @@ H2 {
   font-size: 1.5em;
 }
 
+INPUT[type="text"],
+INPUT[type="email"],
+INPUT[type="password"],
+TEXTAREA {
+  border: 0;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.1em 0.7em;
+  background: #155B79;
+  color: #FFFFFF;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  -webkit-appearance: none; /* I prefer my styles, Steve Jobs */
+  border-radius: 4px; /* I prefer my styles, Steve Jobs */
+  outline: 0;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  overflow: auto; /* Good ol' IE */
+  margin-bottom: 1em;
+  -webkit-box-shadow: inset 0px 0px 10px 0px rgba(21,91,121,0.6);
+  -moz-box-shadow: inset 0px 0px 10px 0px rgba(21,91,121,0.6);
+  box-shadow: inset 0px 0px 10px 0px rgba(21,91,121,0.6);
+}
+
+TEXTAREA {
+  padding: 0.5em 0.7em;
+  height: 10em;
+}
+
+INPUT[type="text"]:focus,
+INPUT[type="email"]:focus,
+INPUT[type="password"]:focus,
+TEXTAREA:focus {
+  background: #1F80A9;
+}
+
+INPUT::-webkit-input-placeholder { color: #FFFFFF; opacity: 1; }
+INPUT:-moz-placeholder { color: #FFFFFF; opacity: 1; } /* FF 4-18 */
+INPUT::-moz-placeholder { color: #FFFFFF; opacity: 1; } /* FF 19+ */
+INPUT:-ms-input-placeholder { color: #FFFFFF; opacity: 1; } /* IE 10+ */
+TEXTAREA::-webkit-input-placeholder { color: #FFFFFF; opacity: 1; }
+TEXTAREA:-moz-placeholder { color: #FFFFFF; opacity: 1; } /* FF 4-18 */
+TEXTAREA::-moz-placeholder { color: #FFFFFF; opacity: 1; } /* FF 19+ */
+TEXTAREA:-ms-input-placeholder { color: #FFFFFF; opacity: 1; } /* IE 10+ */
+
+INPUT:focus::-webkit-input-placeholder { color: transparent; }
+INPUT:focus:-moz-placeholder { color: transparent; } /* FF 4-18 */
+INPUT:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
+INPUT:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
+TEXTAREA:focus::-webkit-input-placeholder { color: transparent; }
+TEXTAREA:focus:-moz-placeholder { color: transparent; } /* FF 4-18 */
+TEXTAREA:focus::-moz-placeholder { color: transparent; } /* FF 19+ */
+TEXTAREA:focus:-ms-input-placeholder { color: transparent; } /* IE 10+ */
+
+INPUT[type="submit"] {
+  border: 0;
+  box-sizing: border-box;
+  padding: 0.6em 1.38em;
+  border-radius: 10px;
+  background: #F15928;
+  color: #FFFFFF;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1em;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  display: block;
+  margin: 0 auto;
+  -webkit-appearance: none; /* I prefer my styles, Steve Jobs */
+}
+
+INPUT[type="submit"]:hover {
+  background: #1F80A9;
+}
+
+INPUT[type="submit"]:focus {
+  outline: none;
+}
+
 .site-width {
   width: 1000px;
   margin: 0 auto;
@@ -101,6 +186,38 @@ A.social:hover, A.social:active {
   background: #27AAE1;
 }
 
+A.round-button:link,
+A.round-button:visited {
+  background: #F05A29;
+  color: #FFFFFF;
+  font-weight: 600;
+  line-height: 1em;
+  padding: 0.2em 0.8em;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+A.round-button:hover,
+A.round-button:active {
+  background: #1F80A9;
+  color: #FFFFFF;
+}
+
+IMG.right {
+  float: right;
+  margin-left: 2em;
+}
+
+IMG.left {
+  float: left;
+  margin-right: 2em;
+}
+
+IMG.round {
+  border-radius: 50%;
+}
+
 .video {
   position: relative;
   padding-bottom: 56.25%;
@@ -120,6 +237,7 @@ A.social:hover, A.social:active {
 }
 
 .center { text-align: center; }
+.flex { display: flex; }
 
 .one-half {
   float: left;
@@ -683,7 +801,8 @@ A.social:hover, A.social:active {
 
 .dw-footer UL LI {
   float: left;
-  margin-left: 2.6em;
+  width: 22%;
+  margin-left: 4%;
 }
 
 .dw-footer UL LI:first-child {
@@ -711,6 +830,7 @@ A.social:hover, A.social:active {
 
 .dw-footer UL LI UL LI {
   float: none;
+  width: inherit;
   margin-left: 0;
   padding: 0.65em 1.5em 0.65em 0;
   border-bottom: 1px solid #E1E1E1;
@@ -1326,6 +1446,253 @@ DIV.social A {
   border-color: #F05A29;
 }
 
+.sports-medicine-blue {
+  background: #1F80A9;
+  color: #FFFFFF;
+  font-size: 106.25%;
+  line-height: 1.8em;
+  padding: 4em 0;
+}
+
+.sports-medicine-blue H2 {
+  margin: 0 0 0.25em;
+  font-weight: 600;
+  font-size: 400%;
+  line-height: 1em;
+}
+
+.sports-medicine {
+  padding: 6em 0;
+  font-size: 106.25%;
+  line-height: 1.8em;
+  color: #939393;
+}
+
+.sports-medicine .one-third {
+  float: left;
+  width: 29.6%;
+  margin-right: 5.6%;
+  text-align: center;
+  line-height: 1.6em;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.sports-medicine .one-third:last-of-type {
+  margin-right: 0;
+}
+
+.sports-medicine .icon {
+  margin: 0 auto;
+  width: 81.08%;
+  border: 3px solid #D7D7D7;
+  border-radius: 50%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.sports-medicine .icon:after {
+  padding-top: 100%;
+  display: block;
+  content: '';
+}
+
+.sports-medicine H3 {
+  margin: 0.6em 0 0.5em;
+  font-weight: 600;
+  font-size: 352.94%;
+  line-height: 1em;
+  color: #0E3749;
+}
+
+.sports-medicine H4 {
+  margin: 0 0 1em;
+  font-weight: 700;
+  font-size: 164.7%;
+  line-height: 1em;
+  color: #0E3749;
+}
+
+.sports-medicine H5 {
+  margin: 0 0 0.25em;
+  font-weight: 700;
+  font-size: 129.41%;
+  line-height: 1em;
+  color: #1F80A9;
+}
+
+.sports-medicine .text {
+  padding-bottom: 3em;
+}
+
+.sports-medicine .link {
+  margin-top: auto;
+  align-self: center;
+}
+
+.sports-medicine HR {
+  border-top: 1pt solid #939393;
+}
+
+.sports-medicine-footer {
+  background: #F1F2F2;
+  padding: 5em 0;
+  text-align: center;
+}
+
+.smf-blue {
+  background: #1F80A9;
+}
+
+.sports-medicine-footer A.orange-button:link,
+.sports-medicine-footer A.orange-button:visited {
+  color: #155B79;
+  padding: 0.6em 0.8em;
+  border: 3px solid #1F80A9;
+  font-size: 112.5%;
+}
+
+.sports-medicine-footer A.orange-button:hover,
+.sports-medicine-footer A.orange-button:active {
+  color: #1F80A9;
+}
+
+.smf-blue A.orange-button:link,
+.smf-blue A.orange-button:visited {
+  color: #FFFFFF;
+  border: 3px solid #166080;
+}
+
+.smf-blue A.orange-button:hover,
+.smf-blue A.orange-button:active {
+  color: #166080;
+}
+
+.education UL {
+  color: #1F80A9;
+  line-height: 1.1em;
+}
+
+.education UL LI {
+  padding-bottom: 1.4em;
+}
+
+.education UL A:link,
+.education UL A:visited {
+  color: #939393;
+  font-weight: 600;
+  font-size: 105.88%;
+}
+
+.education UL A:hover,
+.education UL A:active {
+  color: #F15928;
+}
+
+.sports-medicine-blue.contact-form H2 {
+  margin: 0;
+}
+
+.contact-top {
+  padding: 4em 0;
+  text-align: center;
+}
+
+.contact-top STRONG {
+  font-weight: 600;
+  color: #1F80A9;
+}
+
+.contact-top A:link,
+.contact-top A:visited {
+  color: #1F80A9;
+  text-decoration: underline;
+}
+
+.contact-top A:hover,
+.contact-top A:active {
+  color: #F15928;
+  text-decoration: underline;
+}
+
+.contact-form {
+  padding: 4em 0;
+}
+
+#contact-form {
+  width: 73.3%;
+  margin: 0 auto;
+  font-size: 106.25%;
+}
+
+#contact-form .required {
+  font-size: 14px;
+  color: #1F80A9;
+  padding-bottom: 1em;
+}
+
+.radio LABEL {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 1.3em;
+  margin: 0 0.5em;
+  font-weight: 600;
+}
+
+.radio INPUT[type=radio],
+INPUT[type="checkbox"] {
+  display: none;
+}
+
+.radio LABEL:after {
+  content: "";
+  display: inline-block;
+  width: 0.9em;
+  height: 0.9em;
+  position: absolute;
+  left: 0;
+  bottom: 0.25em;
+  background: #155B79;
+  border-radius: 8px;
+}
+
+.radio INPUT[type=radio]:checked + LABEL:after {
+  background: #EBEBEB;
+  -webkit-box-shadow:inset 0px 0px 0px 3px #155B79;
+  -moz-box-shadow:inset 0px 0px 0px 3px #155B79;
+  box-shadow:inset 0px 0px 0px 3px #155B79;
+}
+
+INPUT[type="checkbox"] + LABEL SPAN {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.3em;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+INPUT[type="checkbox"] + LABEL SPAN:before {
+  font-family: FontAwesome;
+  content: "\f096";
+}
+
+INPUT[type="checkbox"]:checked + LABEL SPAN:before {
+  font-family: FontAwesome;
+  content: "\f046";
+}
+
+#contact-form-messages {
+  line-height: 1em;
+  height: 1em;
+  color: #F15928;
+  margin: 1.7em 0;
+  text-align: center;
+}
+
+
 
 @media only screen and (max-width: 1086px) {
   .cycle-pager.vertical {
@@ -1477,12 +1844,22 @@ DIV.social A {
   }
 
   .dw-footer UL {
+    text-align: center;
+  }
+
+  .dw-footer UL:after {
+    content: "";
     display: table;
-    margin: 0 auto;
+    clear: both;
   }
 
   .dw-footer UL LI {
-    margin-left: 5em;
+    width: 40%;
+    margin-left: 10%;
+    float: none;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
   }
 
   .dw-footer UL LI:nth-child(3) {
@@ -1495,8 +1872,10 @@ DIV.social A {
     padding-top: 2em;
   }
 
-  .dw-footer UL LI UL {
+  .dw-footer UL LI UL LI {
     display: block;
+    text-align: left;
+    width: inherit;
   }
 
   .dw-footer UL LI UL LI:nth-child(3),
@@ -1543,6 +1922,14 @@ DIV.social A {
 
   .appointments-locations #map-canvas {
     left: 34.5%;
+  }
+
+  .sports-medicine .icon {
+    background-size: auto 70%;
+  }
+
+  .sports-medicine H3 {
+    font-size: 250%;
   }
 }
 
@@ -1723,10 +2110,52 @@ DIV.social A {
   .appointments-locations .list .loc-phone SPAN {
     display: inline;
   }
+
+  .sports-medicine {
+    padding: 3em 0;
+    display: block;
+  }
+
+  .sports-medicine .one-third {
+    float: none;
+    width: 100%;
+    margin: 0;
+    display: block;
+    text-align: left;
+    padding: 3em 0;
+  }
+
+  .sports-medicine .icon {
+    float: left;
+    width: 29.6%;
+    margin-top: 0.75em;
+    margin-right: 3%;
+  }
+
+  .sports-medicine H3 {
+    margin: 0 0 0.25em;
+    font-size: 352.94%;
+  }
+
+  .sports-medicine .text {
+    padding-bottom: 1.5em;
+  }
+
+  .sports-medicine .link {
+    text-align: right;
+  }
 }
 
 @media only screen and (max-width: 480px) {
   /* Phone */
+  IMG.right,
+  IMG.left {
+    float: none;
+    margin: 2em auto;
+    display: block;
+    max-width: 100%;
+  }
+
   .header-left {
     width: auto;
     width: 60%;
@@ -1861,18 +2290,6 @@ DIV.social A {
     padding-left: 70px;
   }
 
-  .dw-footer UL LI {
-    margin-left: 0;
-  }
-
-  .dw-footer UL LI:nth-child(2) {
-    padding-top: 2em;
-  }
-
-  .dw-footer UL LI UL LI:nth-child(2) {
-    padding-top: 0.65em;
-  }
-
   .entry-header H3,
   .blog-single {
     font-size: 350%;
@@ -1907,6 +2324,24 @@ DIV.social A {
   .appointments-banner-footer A.orange-button:link,
   .appointments-banner-footer A.orange-button:visited {
     margin: 1em 0;
+  }
+
+  .sports-medicine .one-third {
+    text-align: center;
+  }
+
+  .sports-medicine .icon {
+    float: none;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .sports-medicine H3 {
+    margin: 0.6em 0 0.5em;
+  }
+
+  .sports-medicine .link {
+    text-align: center;
   }
 }
 
