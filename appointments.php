@@ -6,7 +6,7 @@ $Keywords = "";
 include "header.php";
 ?>
 
-<div class="appointments-banner">
+<div class="sub-header appointments-header">
   <div class="site-width">
     <h2>FOR APPOINTMENTS: <span>414-479-7000</span></h2>
     For all appointments and inquiries, please call us.
@@ -18,7 +18,7 @@ include "header.php";
     <strong>For worker's compensation and Independent Medical Examinations (IMEs), please call: 414-479-7000.</strong><br>
     <br>
 
-    <h3>Please obtain and bring the following to your appointment:</h3>
+    <h3>PLEASE OBTAIN AND BRING THE FOLLOWING TO YOUR APPOINTMENT:</h3>
     <ul>
       <li>Drivers License or a valid ID</li>
       <li>Insurance information</li>
@@ -28,7 +28,7 @@ include "header.php";
     </ul>
     <br>
 
-    <h3>Appointment Cancellation</h3>
+    <h3>APPOINTMENT CANCELLATION</h3>
     Telephone the office during business hours and allow at least 1 day's notice so that we can offer your appointment time to patients on our waiting list.<br>
     <br>
 

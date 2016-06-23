@@ -43,12 +43,25 @@ UL, OL {
   padding: 0 0 0 0.7em;
 }
 
-H1 {
-  font-size: 1.7em;
+H2, H3, H4, H5 {
+  margin: 0 0 0.25em;
+  font-weight: 600;
+  font-size: 68px;
+  line-height: 1em;
 }
 
-H2 {
-  font-size: 1.5em;
+H3 {
+  font-size: 60px;
+}
+
+H4 {
+  margin: 0 0 1em;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+H5 {
+  font-size: 20px;
 }
 
 INPUT[type="text"],
@@ -225,7 +238,7 @@ IMG.round {
   overflow: hidden;
   max-width: 100%;
 }
- 
+
 .video iframe,
 .video object,
 .video embed {
@@ -451,7 +464,7 @@ IMG.round {
 .cycle-pager.vertical SPAN {
   margin: 0.3em 0;
   width: 8px;
-  height: 8px; 
+  height: 8px;
   display: block;
   cursor: pointer;
   border-radius: 50%;
@@ -562,9 +575,7 @@ IMG.round {
 
 .wichmans H5 {
   margin: 0 0 0.5em;
-  font-weight: 600;
   font-size: 143.75%;
-  line-height: 1em;
   color: #EBEBEB;
 }
 
@@ -780,7 +791,7 @@ IMG.round {
 .testimonials .cycle-pager SPAN {
   margin: 0 0.1em;
   width: 10px;
-  height: 10px; 
+  height: 10px;
   display: inline-block;
   cursor: pointer;
   border-radius: 50%;
@@ -1054,23 +1065,58 @@ DIV.social A {
   display: none;
 }
 
-.our-practice-blue {
+.sub-header {
   background: #1F80A9;
   color: #FFFFFF;
-  font-size: 112.5%;
+  font-size: 106.25%;
   line-height: 1.8em;
+  padding: 4em 0;
+}
+
+.sub-footer {
+  background: #F1F2F2;
+  padding: 5em 0;
+  text-align: center;
+}
+
+.sub-footer-blue {
+  background: #1F80A9;
+}
+
+.sub-footer A.orange-button:link,
+.sub-footer A.orange-button:visited {
+  color: #155B79;
+  padding: 0.6em 0.8em;
+  border: 3px solid #1F80A9;
+  font-size: 112.5%;
+}
+
+.sub-footer A.orange-button:hover,
+.sub-footer A.orange-button:active {
+  color: #1F80A9;
+}
+
+.sub-footer-blue A.orange-button:link,
+.sub-footer-blue A.orange-button:visited {
+  color: #FFFFFF;
+  border: 3px solid #166080;
+}
+
+.sub-footer-blue A.orange-button:hover,
+.sub-footer-blue A.orange-button:active {
+  color: #166080;
+}
+
+.our-practice-header {
+  font-size: 112.5%;
   padding: 3em 0;
 }
 
-.our-practice-blue H2,
-.our-practice-blue H3 {
-  margin: 0 0 0.25em;
-  font-weight: 600;
+.our-practice-header H2 {
   font-size: 472.22%;
-  line-height: 1em;
 }
 
-.our-practice-blue H3 {
+.our-practice-header H3 {
   font-size: 377.77%;
 }
 
@@ -1082,9 +1128,7 @@ DIV.social A {
 }
 
 .our-practice H3 {
-  margin: 0 0 00.2em;
   font-size: 205.88%;
-  line-height: 1em;
   font-weight: 700;
   color: #1F80A9;
 }
@@ -1212,9 +1256,7 @@ DIV.social A {
 
 .affiliated .col2 H3 {
   margin: 0 0 0.5em;
-  font-weight: 600;
   font-size: 311%;
-  line-height: 1em;
   color: #0E3749;
 }
 
@@ -1321,23 +1363,17 @@ DIV.social A {
   content: '';
 }
 
-.appointments-banner {
-  background: #1F80A9;
-  color: #FFFFFF;
+.appointments-header {
   font-size: 131.25%;
-  line-height: 1.8em;
   padding: 3em 0;
 }
 
-.appointments-banner H2 {
-  margin: 0 0 0.25em;
-  font-weight: 600;
+.appointments-header H2 {
   font-size: 295.23%;
-  line-height: 1em;
 }
 
-.appointments-banner SPAN,
-.appointments-banner A:link {
+.appointments-header SPAN,
+.appointments-header A:link {
   color: #092734;
 }
 
@@ -1355,8 +1391,6 @@ DIV.social A {
   color: #0E3749;
   font-weight: 700;
   font-size: 141.17%;
-  line-height: 1em;
-  text-transform: uppercase;
 }
 
 .appointments-locations {
@@ -1374,7 +1408,6 @@ DIV.social A {
   color: #092734;
   font-weight: 700;
   font-size: 200%;
-  line-height: 1em;
 }
 
 .appointments-locations .list H3 SPAN {
@@ -1427,10 +1460,8 @@ DIV.social A {
 }
 
 .appointments-banner-footer H2 {
-  margin: 0 0 0.8em;
-  font-weight: 600;
+  margin-bottom: 0.8em;
   font-size: 322.22%;
-  line-height: 1em;
 }
 
 .appointments-banner-footer A.orange-button:link,
@@ -1444,21 +1475,6 @@ DIV.social A {
 .appointments-banner-footer A.orange-button:active {
   color: #155B79;
   border-color: #F05A29;
-}
-
-.sports-medicine-blue {
-  background: #1F80A9;
-  color: #FFFFFF;
-  font-size: 106.25%;
-  line-height: 1.8em;
-  padding: 4em 0;
-}
-
-.sports-medicine-blue H2 {
-  margin: 0 0 0.25em;
-  font-weight: 600;
-  font-size: 400%;
-  line-height: 1em;
 }
 
 .sports-medicine {
@@ -1500,25 +1516,18 @@ DIV.social A {
 
 .sports-medicine H3 {
   margin: 0.6em 0 0.5em;
-  font-weight: 600;
   font-size: 352.94%;
-  line-height: 1em;
   color: #0E3749;
 }
 
 .sports-medicine H4 {
-  margin: 0 0 1em;
-  font-weight: 700;
   font-size: 164.7%;
-  line-height: 1em;
   color: #0E3749;
 }
 
 .sports-medicine H5 {
-  margin: 0 0 0.25em;
   font-weight: 700;
   font-size: 129.41%;
-  line-height: 1em;
   color: #1F80A9;
 }
 
@@ -1533,40 +1542,6 @@ DIV.social A {
 
 .sports-medicine HR {
   border-top: 1pt solid #939393;
-}
-
-.sports-medicine-footer {
-  background: #F1F2F2;
-  padding: 5em 0;
-  text-align: center;
-}
-
-.smf-blue {
-  background: #1F80A9;
-}
-
-.sports-medicine-footer A.orange-button:link,
-.sports-medicine-footer A.orange-button:visited {
-  color: #155B79;
-  padding: 0.6em 0.8em;
-  border: 3px solid #1F80A9;
-  font-size: 112.5%;
-}
-
-.sports-medicine-footer A.orange-button:hover,
-.sports-medicine-footer A.orange-button:active {
-  color: #1F80A9;
-}
-
-.smf-blue A.orange-button:link,
-.smf-blue A.orange-button:visited {
-  color: #FFFFFF;
-  border: 3px solid #166080;
-}
-
-.smf-blue A.orange-button:hover,
-.smf-blue A.orange-button:active {
-  color: #166080;
 }
 
 .education UL {
@@ -1590,7 +1565,7 @@ DIV.social A {
   color: #F15928;
 }
 
-.sports-medicine-blue.contact-form H2 {
+.contact-header H2 {
   margin: 0;
 }
 
@@ -1632,21 +1607,24 @@ DIV.social A {
   padding-bottom: 1em;
 }
 
-.radio LABEL {
+.radio LABEL,
+.checkbox LABEL {
   display: inline-block;
   cursor: pointer;
   position: relative;
   padding-left: 1.3em;
   margin: 0 0.5em;
-  font-weight: 600;
 }
 
-.radio INPUT[type=radio],
-INPUT[type="checkbox"] {
+.checkbox LABEL { margin-left: 0; }
+
+.radio INPUT[type="radio"],
+.checkbox INPUT[type="checkbox"] {
   display: none;
 }
 
-.radio LABEL:after {
+.radio LABEL:after,
+.checkbox LABEL:after {
   content: "";
   display: inline-block;
   width: 0.9em;
@@ -1658,30 +1636,12 @@ INPUT[type="checkbox"] {
   border-radius: 8px;
 }
 
-.radio INPUT[type=radio]:checked + LABEL:after {
+.radio INPUT[type="radio"]:checked + LABEL:after,
+.checkbox INPUT[type="checkbox"]:checked + LABEL:after {
   background: #EBEBEB;
   -webkit-box-shadow:inset 0px 0px 0px 3px #155B79;
   -moz-box-shadow:inset 0px 0px 0px 3px #155B79;
   box-shadow:inset 0px 0px 0px 3px #155B79;
-}
-
-INPUT[type="checkbox"] + LABEL SPAN {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  margin-right: 0.3em;
-  vertical-align: top;
-  cursor: pointer;
-}
-
-INPUT[type="checkbox"] + LABEL SPAN:before {
-  font-family: FontAwesome;
-  content: "\f096";
-}
-
-INPUT[type="checkbox"]:checked + LABEL SPAN:before {
-  font-family: FontAwesome;
-  content: "\f046";
 }
 
 #contact-form-messages {
@@ -1903,7 +1863,7 @@ INPUT[type="checkbox"]:checked + LABEL SPAN:before {
     width: 45%;
   }
 
-  .appointments-banner SPAN {
+  .appointments-header SPAN {
     display: block;
   }
 
@@ -2038,7 +1998,7 @@ INPUT[type="checkbox"]:checked + LABEL SPAN:before {
   .news-home .header IMG {
     display: none;
   }
-  
+
   .news-home .col1,
   .news-home .col2 {
     float: none;
@@ -2143,6 +2103,10 @@ INPUT[type="checkbox"]:checked + LABEL SPAN:before {
 
   .sports-medicine .link {
     text-align: right;
+  }
+
+  #contact-form {
+    width: 100%;
   }
 }
 
@@ -2295,7 +2259,7 @@ INPUT[type="checkbox"]:checked + LABEL SPAN:before {
     font-size: 350%;
   }
 
-  .our-practice-blue H3 {
+  .our-practice-header H3 {
     font-size: 300%;
   }
 
@@ -2313,7 +2277,7 @@ INPUT[type="checkbox"]:checked + LABEL SPAN:before {
     width: 45%;
   }
 
-  .appointments-banner H2 {
+  .appointments-header H2 {
     font-size: 230%;
   }
 
@@ -2342,6 +2306,18 @@ INPUT[type="checkbox"]:checked + LABEL SPAN:before {
 
   .sports-medicine .link {
     text-align: center;
+  }
+
+  .radio {
+    display: block;
+  }
+
+  .radio LABEL:first-of-type {
+    margin-left: 0;
+  }
+
+  .checkbox LABEL:after {
+    top: 0.2em;
   }
 }
 
@@ -2375,11 +2351,11 @@ INPUT[type="checkbox"]:checked + LABEL SPAN:before {
     font-size: 300%;
   }
 
-  .our-practice-blue H2 {
+  .our-practice-header H2 {
     font-size: 400%;
   }
 
-  .appointments-banner H2 {
+  .appointments-header H2 {
     font-size: 200%;
   }
 

@@ -33,7 +33,7 @@ include "header.php";
   </div>
 </div>
 
-<div class="our-practice-blue">
+<div class="sub-header our-practice-header">
   <div class="site-width">
     <h2>OUR PRACTICE</h2>
     Mark Wichman MD and Matthew Wichman MD have been practicing orthopedic surgeons for over 30 years combined. Both doctors have families and close ties to Southeastern Wisconsin. Both Wichmans specialize in Sports Medicine and work closely with local and national sports teams.

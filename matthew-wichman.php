@@ -6,7 +6,7 @@ $Keywords = "";
 include "header.php";
 ?>
 
-<div class="our-practice-blue">
+<div class="sub-header our-practice-header">
   <div class="site-width">
     <h3>DR. MATTHEW P. WICHMAN</h3>
     "I truly enjoy the opportunity to build a relationship with my patients so we can work together to fully address their needs. I strive to maintain current knowledge of innovative techniques to provide my patients comprehensive care."

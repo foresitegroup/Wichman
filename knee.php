@@ -6,7 +6,7 @@ $Keywords = "";
 include "header.php";
 ?>
 
-<div class="sports-medicine-blue">
+<div class="sub-header">
   <div class="site-width">
     <h2>THE KNEE</h2>
     The knee can also cause problems when it's too loose, too stiff, or when the cartilage is damaged or worn out. Here are the most common knee problems seen in our patients:
@@ -76,7 +76,7 @@ include "header.php";
   The articular cartilage of the knee has no nerve endings. In fact, if I took a needle and poked the cartilage on the end of the femur, it wouldn't cause pain. However, the bone beneath that smooth glistening cartilage has lots of nerve endings. That's why "bone on bone" arthritis can be so painful. We have 3 compartments in the knee that can be affected by arthritis. If only one compartment is affected, there are more options for treatment than when the arthritis is more generalized.
 </div>
 
-<div class="sports-medicine-footer">
+<div class="sub-footer">
   <a href="appointments.php" class="orange-button">SCHEDULE AN APPOINTMENT</a>
 </div>
 

@@ -6,7 +6,7 @@ $Keywords = "";
 include "header.php";
 ?>
 
-<div class="sports-medicine-blue">
+<div class="sub-header">
   <div class="site-width">
     <h2>SPORTS MEDICINE</h2>
     Because of their extensive knowledge Doctors Mark and Matthew Wichman have be engaged by several teams to help prevent and treat sports injuries among player including: <strong>The Milwaukee Admirals</strong>, <strong>Grafton Blackhawks</strong>, <strong>Homestead Highlanders</strong>.<br>
@@ -60,7 +60,7 @@ include "header.php";
   </div>
 </div>
 
-<div class="sports-medicine-footer">
+<div class="sub-footer">
   <a href="appointments.php" class="orange-button">SCHEDULE AN APPOINTMENT</a>
 </div>
 

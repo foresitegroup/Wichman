@@ -6,7 +6,7 @@ $Keywords = "";
 include "header.php";
 ?>
 
-<div class="our-practice-blue">
+<div class="sub-header our-practice-header">
   <div class="site-width">
     <h3>DR. MARK T. WICHMAN</h3>
     "It is my mission to provide each patient with excellent service with compassionate care. I always strive to provide my patients with the same high quality of orthopaedic care that I would offer to a member of my family."

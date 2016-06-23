@@ -6,7 +6,7 @@ $Keywords = "";
 include "header.php";
 ?>
 
-<div class="sports-medicine-blue">
+<div class="sub-header">
   <div class="site-width">
     <h2>SPORTS MEDICINE EDUCATION</h2>
     Below features infomration on common sports related injuries, treatment and prevention.
@@ -89,7 +89,7 @@ include "header.php";
   </ul>
 </div>
 
-<div class="sports-medicine-footer smf-blue">
+<div class="sub-footer sub-footer-blue">
   <a href="appointments.php" class="orange-button">SCHEDULE AN APPOINTMENT</a>
 </div>
 

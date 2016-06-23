@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 $PageTitle = "Contact";
 $Description = "";
 $Keywords = "";
@@ -6,7 +8,7 @@ $Keywords = "";
 include "header.php";
 ?>
 
-<div class="sports-medicine-blue contact-form center">
+<div class="sub-header contact-header center">
   <h2>CONTACT US</h2>
 </div>
 
@@ -17,8 +19,11 @@ include "header.php";
 <hr>
 
 <div class="site-width contact-form">
+  <script type="text/javascript" src="inc/jquery.mask.min.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
+      $.jMaskGlobals.watchDataMask = true;
+
       var form = $('#contact-form');
       var formMessages = $('#contact-form-messages');
       $(form).submit(function(event) {
@@ -27,7 +32,7 @@ include "header.php";
         function formValidation() {
           if ($('#name').val() === '') { alert('Name required.'); $('#name').focus(); return false; }
           if ($('#email').val() === '') { alert('Email required.'); $('#email').focus(); return false; }
-          if ($('#message').val() === '') { alert('Message required.'); $('#message').focus(); return false; }
+          if ($('#comment').val() === '') { alert('Comment required.'); $('#comment').focus(); return false; }
           return true;
         }
         
@@ -45,6 +50,7 @@ include "header.php";
 
             $(form).find('input:text, textarea').val('');
             $('#email').val(''); // Grrr!
+            $(form).find('input:radio, input:checked').removeAttr('checked').removeAttr('selected');
           })
           .fail(function(data) {
             if (data.responseText !== '') {
@@ -80,7 +86,7 @@ include "header.php";
 
       <input type="email" name="<?php echo md5("email" . $ip . $salt . $timestamp); ?>" id="email" placeholder="* Email Address">
 
-      <input type="text" name="<?php echo md5("phone" . $ip . $salt . $timestamp); ?>" id="subject" placeholder="Phone Number">
+      <input type="text" name="<?php echo md5("phone" . $ip . $salt . $timestamp); ?>" id="subject" placeholder="Phone Number" data-mask="000-000-0000">
 
       <input type="text" name="<?php echo md5("subject" . $ip . $salt . $timestamp); ?>" id="subject" placeholder="Subject">
 
@@ -90,13 +96,15 @@ include "header.php";
 
       Please indicate how best to reach you:
       <span class="radio">
-        <input type="radio" name="reach" value="Phone" id="r-phone"> <label for="r-phone">Phone</label>
-        <input type="radio" name="reach" value="Email" id="r-email"> <label for="r-email">Email</label>
+        <input type="radio" name="reach" value="phone" id="r-phone"> <label for="r-phone"><strong>Phone</strong></label>
+        <input type="radio" name="reach" value="email" id="r-email"> <label for="r-email"><strong>Email</strong></label>
       </span><br>
       <br>
-
-      <input type="checkbox" name="uptodate" id="uptodate" value="I would like to recieve periodic information from www.drwichman.com">
-      <label for="uptodate"><span></span>I would like to recieve periodic information from www.drwichman.com</label>
+      
+      <span class="checkbox">
+        <input type="checkbox" name="info" id="info" value="I would like to recieve periodic information from www.drwichman.com">
+        <label for="info">I would like to recieve periodic information from www.drwichman.com</label>
+      </span>
 
       <div id="contact-form-messages"><?php echo $feedback; ?></div>
 
@@ -112,7 +120,7 @@ include "header.php";
   </form>
 </div>
 
-<div class="sports-medicine-footer">
+<div class="sub-footer">
   <a href="appointments.php" class="orange-button">SCHEDULE AN APPOINTMENT</a>
 </div>
 
