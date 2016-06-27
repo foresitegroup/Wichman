@@ -46,11 +46,12 @@ include "header.php";
 
       <?php
       $locations = array(
-        "1" => array("name" => "Aurora Advanced Healthcare", "address" => "2999 N Mayfair Rd", "address2" => "Suite 100", "city" => "Wauwatosa", "state" => "WI", "zip" => "53222", "lat" => "43.072918", "lon" => "-88.0505869"),
-        "2" => array("name" => "Aurora Advanced Healthcare", "address" => "975 Port Washington Rd", "address2" => "", "city" => "Grafton", "state" => "WI", "zip" => "53024", "lat" => "43.3235915", "lon" => "-87.9305631"),
-        "3" => array("name" => "Aurora Advanced Healthcare", "address" => "945 N 12th St", "address2" => "Suite 1200", "city" => "Milwaukee", "state" => "WI", "zip" => "53233", "lat" => "43.0426168", "lon" => "-87.9301253"),
-        "4" => array("name" => "Aurora Advanced Healthcare", "address" => "14555 W National Ave", "address2" => "", "city" => "New Berlin", "state" => "WI", "zip" => "53151", "lat" => "42.9825053", "lon" => "-88.164953"),
-        "5" => array("name" => "Aurora Advanced Healthcare", "address" => "2424 S 90th St", "address2" => "Suite 500", "city" => "West Allis", "state" => "WI", "zip" => "53227", "lat" => "43.0011123", "lon" => "-88.0255039")
+        "1" => array("name" => "Aurora Advanced Healthcare", "address" => "2999 N Mayfair Rd", "address2" => "Suite 100", "city" => "Wauwatosa", "state" => "WI", "zip" => "53222", "lat" => "43.072918", "lon" => "-88.0505869", "doctor" => "Dr. Mark Wichman<br>Dr. Matthew Wichman"),
+        "2" => array("name" => "Aurora Advanced Healthcare", "address" => "975 Port Washington Rd", "address2" => "", "city" => "Grafton", "state" => "WI", "zip" => "53024", "lat" => "43.3235915", "lon" => "-87.9305631", "doctor" => "Dr. Matthew Wichman"),
+        "3" => array("name" => "Aurora Advanced Healthcare", "address" => "945 N 12th St", "address2" => "Suite 1200", "city" => "Milwaukee", "state" => "WI", "zip" => "53233", "lat" => "43.0426168", "lon" => "-87.9301253", "doctor" => "Dr. Mark Wichman<br>Dr. Matthew Wichman"),
+        "4" => array("name" => "Aurora Advanced Healthcare", "address" => "14555 W National Ave", "address2" => "", "city" => "New Berlin", "state" => "WI", "zip" => "53151", "lat" => "42.9825053", "lon" => "-88.164953", "doctor" => "Dr. Mark Wichman"),
+        "5" => array("name" => "Aurora Advanced Healthcare", "address" => "2424 S 90th St", "address2" => "Suite 500", "city" => "West Allis", "state" => "WI", "zip" => "53227", "lat" => "43.0011123", "lon" => "-88.0255039", "doctor" => "Dr. Mark Wichman"),
+        "6" => array("name" => "Aurora Advanced Healthcare", "address" => "163 N Milwaukee Street", "address2" => "", "city" => "Milwaukee", "state" => "WI", "zip" => "53202", "lat" => "43.0319167", "lon" => "-87.9065404", "doctor" => "Dr. Matthew Wichman")
       );
 
       $Markers = "";
@@ -62,6 +63,7 @@ include "header.php";
         if (!empty($locations[$i]['address2'])) $location .= "<br>" . $locations[$i]['address2'];
         $location .= "<br>";
         $location .= $locations[$i]['city'] . ", " . $locations[$i]['state'] . " " . $locations[$i]['zip'] . "<br>";
+        $location .= "<div class=\"loc-doc\">" . $locations[$i]['doctor'] . "</div>";
 
         echo "<div class=\"loc-num\">" . $i . ".</div>";
         echo "<div class=\"loc-loc\">" . $location . "</div>";

@@ -251,6 +251,7 @@ IMG.round {
 
 .center { text-align: center; }
 .flex { display: flex; }
+.bluetext { color: #1F80A9; }
 
 .one-half {
   float: left;
@@ -758,7 +759,7 @@ IMG.round {
   border-color: #FFFFFF;
 }
 
-.testimonials {
+.testimonials-home {
   background: #F1F2F2;
   color: #464646;
   padding: 3em 0;
@@ -769,16 +770,16 @@ IMG.round {
   box-shadow: inset 0 7px 9px -4px rgba(25, 25, 25, 0.2);
 }
 
-.testimonials .cycle-slideshow {
+.testimonials-home .cycle-slideshow {
   position: relative;
   padding-bottom: 1.5em;
 }
 
-.testimonials .cycle-slideshow > DIV {
+.testimonials-home .cycle-slideshow > DIV {
   height: auto;
 }
 
-.testimonials .cycle-pager {
+.testimonials-home .cycle-pager {
   position: absolute;
   bottom: -2em;
   z-index: 500;
@@ -788,7 +789,7 @@ IMG.round {
   text-align: center;
 }
 
-.testimonials .cycle-pager SPAN {
+.testimonials-home .cycle-pager SPAN {
   margin: 0 0.1em;
   width: 10px;
   height: 10px;
@@ -798,7 +799,7 @@ IMG.round {
   background: #B5B5B5;
 }
 
-.testimonials .cycle-pager SPAN.cycle-pager-active { background: #1F80A9; }
+.testimonials-home .cycle-pager SPAN.cycle-pager-active { background: #1F80A9; }
 
 .dw-footer {
   padding: 3em 0 0;
@@ -1430,6 +1431,12 @@ DIV.social A {
   line-height: 1.3em;
 }
 
+.appointments-locations .list .loc-doc,
+.gm-style .gm-style-iw .loc-doc {
+  font-size: 80%;
+  line-height: 1.4em;
+}
+
 .appointments-locations .list .loc-clear {
   clear: both;
   height: 1.5em;
@@ -1595,13 +1602,15 @@ DIV.social A {
   padding: 4em 0;
 }
 
-#contact-form {
+#contact-form,
+#mc-embedded-subscribe-form {
   width: 73.3%;
   margin: 0 auto;
   font-size: 106.25%;
 }
 
-#contact-form .required {
+#contact-form .required,
+#mc-embedded-subscribe-form .required {
   font-size: 14px;
   color: #1F80A9;
   padding-bottom: 1em;
@@ -1644,12 +1653,17 @@ DIV.social A {
   box-shadow:inset 0px 0px 0px 3px #155B79;
 }
 
-#contact-form-messages {
+#contact-form-messages,
+#mce-responses {
   line-height: 1em;
-  height: 1em;
+  min-height: 1em;
   color: #F15928;
   margin: 1.7em 0;
   text-align: center;
+}
+
+.testimonials {
+  padding: 5em 0;
 }
 
 

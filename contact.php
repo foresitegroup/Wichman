@@ -13,109 +13,31 @@ include "header.php";
 </div>
 
 <div class="site-width contact-top">
-  NOTE: the form is for <strong>INQUIRIES ONLY</strong> and <strong>NOT TO BE USED TO ASK/RECEIVE MEDICAL ADVICE OR TO SET <a href="appointments.php">APPOINTMENTS</a></strong>.
+  Please sign up for our periodic informational <strong>newsletter</strong>. If you need to set an appointment please call <strong>414-479-7000</strong>.
 </div>
 
 <hr>
 
 <div class="site-width contact-form">
-  <script type="text/javascript" src="inc/jquery.mask.min.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $.jMaskGlobals.watchDataMask = true;
-
-      var form = $('#contact-form');
-      var formMessages = $('#contact-form-messages');
-      $(form).submit(function(event) {
-        event.preventDefault();
-        
-        function formValidation() {
-          if ($('#name').val() === '') { alert('Name required.'); $('#name').focus(); return false; }
-          if ($('#email').val() === '') { alert('Email required.'); $('#email').focus(); return false; }
-          if ($('#comment').val() === '') { alert('Comment required.'); $('#comment').focus(); return false; }
-          return true;
-        }
-        
-        if (formValidation()) {
-          var formData = $(form).serialize();
-          formData += '&src=ajax';
-
-          $.ajax({
-            type: 'POST',
-            url: $(form).attr('action'),
-            data: formData
-          })
-          .done(function(response) {
-            $(formMessages).html(response);
-
-            $(form).find('input:text, textarea').val('');
-            $('#email').val(''); // Grrr!
-            $(form).find('input:radio, input:checked').removeAttr('checked').removeAttr('selected');
-          })
-          .fail(function(data) {
-            if (data.responseText !== '') {
-              $(formMessages).html(data.responseText);
-            } else {
-              $(formMessages).text('Oops! An error occured and your message could not be sent.');
-            }
-          });
-        }
-      });
-    });
-  </script>
-
-  <?php
-  // Settings for randomizing form field names
-  $ip = $_SERVER['REMOTE_ADDR'];
-  $timestamp = time();
-  $salt = "DrWichmanContactForm";
-  ?>
-
-  <noscript>
-  <?php
-  $feedback = (!empty($_SESSION['feedback'])) ? $_SESSION['feedback'] : "";
-  unset($_SESSION['feedback']);
-  ?>
-  </noscript>
-
-  <form action="form-contact.php" method="POST" id="contact-form">
+  <form action="//drwichman.us13.list-manage.com/subscribe/post?u=84fd9ec509a7095e55858daa9&amp;id=a482ba5878" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div>
       <div class="required">* Required</div>
+
+      <input type="text" value="" name="FLNAME" class="" id="mce-FLNAME" placeholder="First &amp; Last Name">
+      <input type="email" value="" name="EMAIL" class="" id="mce-EMAIL" placeholder="* Email Address">
+
+      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_84fd9ec509a7095e55858daa9_a482ba5878" tabindex="-1" value=""></div>
       
-      <input type="text" name="<?php echo md5("name" . $ip . $salt . $timestamp); ?>" id="name" placeholder="* First &amp; Last Name">
+      <div id="mce-responses">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+      </div>
 
-      <input type="email" name="<?php echo md5("email" . $ip . $salt . $timestamp); ?>" id="email" placeholder="* Email Address">
-
-      <input type="text" name="<?php echo md5("phone" . $ip . $salt . $timestamp); ?>" id="subject" placeholder="Phone Number" data-mask="000-000-0000">
-
-      <input type="text" name="<?php echo md5("subject" . $ip . $salt . $timestamp); ?>" id="subject" placeholder="Subject">
-
-      <textarea name="<?php echo md5("comment" . $ip . $salt . $timestamp); ?>" id="comment" placeholder="* Comment"></textarea>
-
-      <br><br>
-
-      Please indicate how best to reach you:
-      <span class="radio">
-        <input type="radio" name="reach" value="phone" id="r-phone"> <label for="r-phone"><strong>Phone</strong></label>
-        <input type="radio" name="reach" value="email" id="r-email"> <label for="r-email"><strong>Email</strong></label>
-      </span><br>
+      <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
       <br>
-      
-      <span class="checkbox">
-        <input type="checkbox" name="info" id="info" value="I would like to recieve periodic information from www.drwichman.com">
-        <label for="info">I would like to recieve periodic information from www.drwichman.com</label>
-      </span>
 
-      <div id="contact-form-messages"><?php echo $feedback; ?></div>
-
-      <input type="hidden" name="referrer" value="contact.php">
-
-      <input type="text" name="confirmationCAP" style="display: none;"> <?php // Non-displaying field as a sort of invisible CAPTCHA. ?>
-
-      <input type="hidden" name="ip" value="<?php echo $ip; ?>">
-      <input type="hidden" name="timestamp" value="<?php echo $timestamp; ?>">
-
-      <input type="submit" name="submit" value="SEND MESSAGE">
+      <div class="center">You may unsubscribe at any time.</div>
     </div>
   </form>
 </div>

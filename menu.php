@@ -6,6 +6,7 @@
       <li><a href="<?php echo $TopDir; ?>matthew-wichman.php">Matthew Wichman, MD</a></li>
       <li><a href="<?php echo $TopDir; ?>appointments.php">Schedule Appointment</a></li>
       <li><a href="<?php echo $TopDir; ?>appointments.php#locations">Locations</a></li>
+      <li><a href="<?php echo $TopDir; ?>testimonials.php">Testimonials</a></li>
     </ul>
   </li>
   <li>
@@ -33,6 +34,11 @@
       <li><a href="<?php echo $TopDir; ?>#">Post-Op Care</a></li>
     </ul>
   </li>
-  <li class="contact"><a href="<?php echo $TopDir; ?>contact.php">CONTACT</a></li>
+  <li class="contact">
+    <a href="<?php echo $TopDir; ?>contact.php">CONTACT</a>
+    <ul>
+      <li><a href="<?php echo $TopDir; ?>appointments.php">Appointments</a></li>
+    </ul>
+  </li>
   <li class="mobile"><a href="tel:888-123-4567">APPOINTMENTS</a></li>
 </ul>

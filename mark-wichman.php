@@ -24,7 +24,11 @@ include "header.php";
         $(document).ready(function() { $('.swipebox').swipebox({autoplayVideos: true, hideBarsDelay : 0}); });
       </script>
 
-      <a href="https://www.youtube.com/watch?v=qWh9pDAu2WQ" class="swipebox" rel="youtube">WATCH VIDEO <i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
+      <a href="https://www.youtube.com/watch?v=qWh9pDAu2WQ" class="swipebox" rel="youtube">WATCH VIDEO <i class="fa fa-play-circle-o" aria-hidden="true"></i></a><br>
+    <br>
+    <br>
+    
+    <a href="publications-mark.php"><strong>PUBLICATIONS, PRESENTATIONS &amp; INSTRUCTION</strong></a>
     </div>
     
     <div class="gallery">
@@ -34,6 +38,9 @@ include "header.php";
       <a href="images/mark-gallery4.jpg" class="swipebox" rel="gallery" style="background-image: url(images/mark-gallery4.jpg);"></a>
       <a href="images/mark-gallery5.jpg" class="swipebox" rel="gallery" style="background-image: url(images/mark-gallery5.jpg);"></a>
       <a href="images/mark-gallery6.jpg" class="swipebox" rel="gallery" style="background-image: url(images/mark-gallery6.jpg);"></a>
+      <a href="images/mark-gallery7.jpg" class="swipebox" rel="gallery" style="background-image: url(images/mark-gallery7.jpg);"></a>
+      <a href="images/mark-gallery8.jpg" class="swipebox" rel="gallery" style="background-image: url(images/mark-gallery8.jpg);"></a>
+      <a href="images/mark-gallery9.jpg" class="swipebox" rel="gallery" style="background-image: url(images/mark-gallery9.jpg);"></a>
     </div>
   </div>
 
@@ -73,7 +80,11 @@ include "header.php";
     Phone: 414-479-7000<br>
     <br>
 
-    <a href="appointments.php#locations"><strong>See 3 Other Locations</strong></a>
+    <a href="appointments.php#locations"><strong>See 3 Other Locations</strong></a><br>
+    <br>
+    <br>
+
+    <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/R-3YRWYWm4E?rel=0" frameborder="0" allowfullscreen></iframe></div>
   </div>
 </div>
 

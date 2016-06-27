@@ -13,7 +13,7 @@ include "header.php";
   
   <div style="background-image: url(images/banner-hockey.jpg);"><div class="overlay">
     <div class="site-width">
-      <h3>MATTHEW WICHMAN, MD &amp; MARK WICHMAN, MD ENJOY SERVING THE COMMUNITY THEY LIVE AND WORK IN.</h3>
+      <h3>MARK WICHMAN, MD &amp; MATTHEW WICHMAN, MD ENJOY SERVING THE COMMUNITY THEY LIVE AND WORK IN.</h3>
       <div class="orange">Proudly serving as the Team Physician for the Milwaukee Admirals, Grafton Blackhawks &amp; Homestead Highlanders.</div>
 
       <div class="banner-logos">
@@ -137,7 +137,7 @@ include "header.php";
   </div>
 </div>
 
-<div class="testimonials">
+<div class="testimonials-home">
   <div class="cycle-slideshow site-width" data-cycle-slides="> div" data-cycle-timeout="8000" data-cycle-pause-on-hover="true" data-cycle-pager-template="<span></span>">
     <p class="cycle-pager"></p>
     <div>
