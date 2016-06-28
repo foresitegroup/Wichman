@@ -1579,6 +1579,7 @@ DIV.social A {
 .contact-top {
   padding: 4em 0;
   text-align: center;
+  font-size: 125%;
 }
 
 .contact-top STRONG {
@@ -1664,6 +1665,14 @@ DIV.social A {
 
 .testimonials {
   padding: 5em 0;
+}
+
+.publications STRONG {
+  color: #1F80A9;
+}
+
+.publications LI STRONG {
+  color: #939393;
 }
 
 

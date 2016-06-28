@@ -24,11 +24,7 @@ include "header.php";
         $(document).ready(function() { $('.swipebox').swipebox({autoplayVideos: true, hideBarsDelay : 0}); });
       </script>
 
-      <a href="https://www.youtube.com/watch?v=qWh9pDAu2WQ" class="swipebox" rel="youtube">WATCH VIDEO <i class="fa fa-play-circle-o" aria-hidden="true"></i></a><br>
-    <br>
-    <br>
-    
-    <a href="publications-mark.php"><strong>PUBLICATIONS, PRESENTATIONS &amp; INSTRUCTION</strong></a>
+      <a href="https://www.youtube.com/watch?v=qWh9pDAu2WQ" class="swipebox" rel="youtube">WATCH VIDEO <i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
     </div>
     
     <div class="gallery">
@@ -45,7 +41,7 @@ include "header.php";
   </div>
 
   <div class="team-right">
-    In 1990, I received my M.D. from the University of Wisconsin Medical School in Madison. My Orthopaedic Surgery Residency was completed through Northwestern University Medical School in Chicago in <strong>YEAR</strong>. I then completed a Fellowship in Sports Medicine at the Southern California Orthopaedic Institute in Van Nuys, California. I am Board Certified in Orthopaedic Surgery.<br>
+    In 1990, I received my M.D. from the University of Wisconsin Medical School in Madison. My Orthopaedic Surgery Residency was completed through Northwestern University Medical School in Chicago. I then completed a Fellowship in Sports Medicine at the Southern California Orthopaedic Institute in Van Nuys, California. I am Board Certified in Orthopaedic Surgery.<br>
     <br>
 
     I take special interest in arthroscopic shoulder and knee reconstruction. I am also the team physician for the Milwaukee Admirals Hockey Team and Wauwatosa West High School.<br>
@@ -70,7 +66,7 @@ include "header.php";
     Sports Medicine Southern California Orthopedic Institute<br>
     <br>
 
-    <strong>Orthopedic Publications, Presentations &amp; Instruction</strong><br>
+    <strong><a href="publications-mark.php">Orthopedic Publications, Presentations &amp; Instruction</a></strong><br>
     <br>
 
     <strong>Primary Location</strong><br>

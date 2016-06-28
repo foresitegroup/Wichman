@@ -13,7 +13,7 @@ include "header.php";
 </div>
 
 <div class="site-width contact-top">
-  Please sign up for our periodic informational <strong>newsletter</strong>. If you need to set an appointment please call <strong>414-479-7000</strong>.
+  Please sign up for our periodic informational <strong>newsletter</strong>. If you need to set an appointment, please call <strong>414-479-7000</strong>.
 </div>
 
 <hr>

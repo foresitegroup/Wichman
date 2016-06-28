@@ -7,12 +7,12 @@ include "header.php";
 ?>
 
 <div class="sub-header">
-  <div class="site-width center">
-    <h2>DR. MARK T. WICHMAN'S ORTHOPEDIC PUBLICATIONS, PRESENTATIONS &amp; INSTRUCTION</h2>
+  <div class="site-width">
+    <h2>ORTHOPEDIC PUBLICATIONS, PRESENTATIONS &amp; INSTRUCTION</h2>
   </div>
 </div>
 
-<div class="sports-medicine site-width">
+<div class="sports-medicine site-width publications">
   <h4>PUBLICATIONS</h4>
   <strong>Clinical Orthopaedics</strong> Edited by Edward V. Craig. <em>Section VI: Athlete's knee.</em> Copyright 1999 Lippincott Williams &amp; Wilkins. Dr. Mark Wichman contributed:
   <ul>
@@ -25,6 +25,7 @@ include "header.php";
   <ul>
     <li><strong>Chapter 5: When We should consider posterior plication sutures and Interval Closure.</strong></li>
   </ul>
+  <br>
 
   <strong>Arthroscopic Capsular Plication for Multidirectional Instability of the Shoulder.</strong> Chapter in "Operative Techniques in Sports Medicine", Felix Savoie, editor, vol. 5(4), pp. 238-243.
   <br>
