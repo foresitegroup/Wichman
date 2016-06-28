@@ -23,8 +23,8 @@ include "header.php";
     <div>
       <div class="required">* Required</div>
 
-      <input type="text" value="" name="FLNAME" class="" id="mce-FLNAME" placeholder="First &amp; Last Name">
-      <input type="email" value="" name="EMAIL" class="" id="mce-EMAIL" placeholder="* Email Address">
+      <input type="text" value="" name="FLNAME" id="mce-FLNAME" placeholder="First &amp; Last Name">
+      <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="* Email Address">
 
       <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
       <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_84fd9ec509a7095e55858daa9_a482ba5878" tabindex="-1" value=""></div>
