@@ -392,6 +392,11 @@ IMG.round {
   height: 645px;
   background-position: center center;
   background-size: cover;
+  display: none;
+}
+
+.cycle-slideshow > DIV:first-of-type {
+  display: block;
 }
 
 .cycle-slideshow .overlay {
@@ -1551,6 +1556,19 @@ DIV.social A {
   border-top: 1pt solid #939393;
 }
 
+.sports-medicine IMG {
+  max-width: 100%;
+  height: auto;
+}
+
+.hip {
+  float: left;
+  width: 20.5%;
+  margin-right: 5%;
+  font-size: 87.5%;
+  line-height: 1.5em;
+}
+
 .education UL {
   color: #1F80A9;
   line-height: 1.1em;
@@ -1914,6 +1932,10 @@ DIV.social A {
   .sports-medicine H3 {
     font-size: 250%;
   }
+
+  .hip {
+    width: 30%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -2128,6 +2150,10 @@ DIV.social A {
     text-align: right;
   }
 
+  .hip {
+    width: 37%;
+  }
+
   #contact-form {
     width: 100%;
   }
@@ -2329,6 +2355,15 @@ DIV.social A {
 
   .sports-medicine .link {
     text-align: center;
+  }
+
+  .hip {
+    width: 48%;
+    margin-right: 0;
+  }
+
+  .hip:first-of-type {
+    margin-right: 4%;
   }
 
   .radio {

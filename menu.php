@@ -13,8 +13,8 @@
     <a href="<?php echo $TopDir; ?>sports-medicine.php" class="drop">SPORTS MEDICINE</a>
     <ul>
       <li><a href="<?php echo $TopDir; ?>knee.php">Knee</a></li>
-      <li><a href="<?php echo $TopDir; ?>#">Shoulder</a></li>
-      <li><a href="<?php echo $TopDir; ?>#">Hip</a></li>
+      <li><a href="<?php echo $TopDir; ?>shoulder.php">Shoulder</a></li>
+      <li><a href="<?php echo $TopDir; ?>hip.php">Hip</a></li>
     </ul>
   </li>
   <li>
