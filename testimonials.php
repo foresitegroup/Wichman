@@ -13,6 +13,12 @@ include "header.php";
 </div>
 
 <div class="site-width center testimonials">
+  "HI Dr. Wichman! Just a quick THANK YOU! You did my knee replacement in May of 2015 and I just wanted you to know that I rode in the ScenicShore 150 cycling event last weekend without any concerns about my new knee! I completed 75 miles Saturday and would have done the second 75 on Sunday but the event was cancelled that day because of storms and flooding. If I could attach a photo I would - the right leg is fully visible but you really have to look hard to see any evidence of a scar. Great to be feeling energetic and confident again!"
+  <br>
+  <span class="bluetext">- Johanna D.</span><br>
+  <br>
+  <br>
+
   "I would like to thank you for the amazing job you did in the surgery repairing my right rotator cup. It certainly was a long road to recovery, but it now feels free of pain and has near 100% range of motion. I cannot describe the blessing this has been, my work is what not only provides me with an income of making a living but is also my dignity that gives me self worth and allows me to continue my trade that I enjoy doing."
   <br>
   <span class="bluetext">- Steve S., Rotator Cup</span><br>
