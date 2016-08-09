@@ -141,9 +141,9 @@ include "header.php";
   <div class="cycle-slideshow site-width" data-cycle-slides="> div" data-cycle-timeout="8000" data-cycle-pause-on-hover="true" data-cycle-pager-template="<span></span>">
     <p class="cycle-pager"></p>
     <div>
-      "I would like to thank you for the amazing job you did in the surgery repairing my right rotator cup. It certainly was a long road to recovery, but it now feels free of pain and has near 100% range of motion. I cannot describe the blessing this has been, my work is what not only provides me with an income of making a living but is also my dignity that gives me self worth and allows me to continue my trade that I enjoy doing."<br>
+      "I would like to thank you for the amazing job you did in the surgery repairing my right rotator cuff. It certainly was a long road to recovery, but it now feels free of pain and has near 100% range of motion. I cannot describe the blessing this has been, my work is what not only provides me with an income of making a living but is also my dignity that gives me self worth and allows me to continue my trade that I enjoy doing."<br>
       <br>
-      - Steve S., Rotator Cup
+      - Steve S., Rotator Cuff
     </div>
 
     <div>

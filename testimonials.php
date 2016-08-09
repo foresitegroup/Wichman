@@ -19,9 +19,9 @@ include "header.php";
   <br>
   <br>
 
-  "I would like to thank you for the amazing job you did in the surgery repairing my right rotator cup. It certainly was a long road to recovery, but it now feels free of pain and has near 100% range of motion. I cannot describe the blessing this has been, my work is what not only provides me with an income of making a living but is also my dignity that gives me self worth and allows me to continue my trade that I enjoy doing."
+  "I would like to thank you for the amazing job you did in the surgery repairing my right rotator cuff. It certainly was a long road to recovery, but it now feels free of pain and has near 100% range of motion. I cannot describe the blessing this has been, my work is what not only provides me with an income of making a living but is also my dignity that gives me self worth and allows me to continue my trade that I enjoy doing."
   <br>
-  <span class="bluetext">- Steve S., Rotator Cup</span><br>
+  <span class="bluetext">- Steve S., Rotator Cuff</span><br>
   <br>
   <br>
 
