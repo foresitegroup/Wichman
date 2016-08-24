@@ -35,9 +35,9 @@
     </ul>
   </li>
   <li class="contact">
-    <a href="<?php echo $TopDir; ?>contact.php">CONTACT</a>
+    <a href="<?php echo $TopDir; ?>appointments.php">CONTACT</a>
     <ul>
-      <li><a href="<?php echo $TopDir; ?>appointments.php">Appointments</a></li>
+      <li><a href="<?php echo $TopDir; ?>contact.php">Newsletter</a></li>
     </ul>
   </li>
   <li class="mobile"><a href="tel:888-123-4567">APPOINTMENTS</a></li>

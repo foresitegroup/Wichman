@@ -46,10 +46,8 @@ include "header.php";
   There are two types of "cartilage" in the knee. The surface cartilage (also called articular cartilage) lines the surfaces of the joint. When we are eating chicken and breaking open the chicken bone, for example, we see that smooth glistening surface. That is the articular cartilage. The meniscus is the second type of cartilage in the knee and is a bushing between the smooth articular cartilage surfaces.<br>
   <br>
   <br>
-
-  <div style="float: left; background: purple; height: 275px; width: 48%; margin-right: 4%;"></div>
-  <div style="float: left; background: purple; height: 275px; width: 48%;"></div>
-  <div style="clear: both;"></div>
+  
+  <img src="images/knee3.jpg" alt=""><br>
   <br>
   <br>
 

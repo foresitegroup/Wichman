@@ -10,7 +10,7 @@ include "header.php";
 <script type="text/javascript" src="inc/jquery.cycle2.scrollVert.min.js"></script>
 <div class="cycle-slideshow" data-cycle-slides="> div" data-cycle-timeout="8000" data-cycle-pause-on-hover="true" data-cycle-fx="scrollVert" data-cycle-pager-template="<span></span>">
   <p class="cycle-pager vertical"></p>
-  
+
   <div style="background-image: url(images/banner-hockey.jpg);"><div class="overlay">
     <div class="site-width">
       <h3>MARK WICHMAN, MD &amp; MATTHEW WICHMAN, MD ENJOY SERVING THE COMMUNITY THEY LIVE AND WORK IN.</h3>
@@ -22,7 +22,7 @@ include "header.php";
         <img src="images/banner-logo-highlanders.png" alt="">
       </div>
 
-      <a href="#" class="orange-button">LEARN MORE</a>
+      <a href="our-practice.php" class="orange-button">LEARN MORE</a>
     </div>
   </div></div>
 
@@ -30,7 +30,7 @@ include "header.php";
     <div class="site-width">
       <h2>SPORTS MEDICINE</h2>
       We Specialize in <strong>Sports Medicine</strong>, <strong>Knee</strong>, <strong>Shoulder</strong> and <strong>Hip</strong>.<br>
-      <a href="#" class="orange-button more-bike">DISCOVER MORE</a>
+      <a href="sports-medicine.php" class="orange-button more-bike">DISCOVER MORE</a>
     </div>
   </div></div>
 </div>
@@ -38,7 +38,7 @@ include "header.php";
 <div class="banner">
   <div class="site-width">
     <div class="one-third">
-      <a href="#"><img src="images/banner-icon-education.png" alt=""> PATIENT EDUCATION</a>
+      <a href="education.php"><img src="images/banner-icon-education.png" alt=""> PATIENT EDUCATION</a>
     </div>
 
     <div class="one-third">
@@ -46,7 +46,7 @@ include "header.php";
     </div>
 
     <div class="one-third">
-      <a href="#"><img src="images/banner-icon-appointment.png" alt=""> APPOINTMENT</a>
+      <a href="appointments.php"><img src="images/banner-icon-appointment.png" alt=""> APPOINTMENT</a>
     </div>
   </div>
 </div>
@@ -58,7 +58,7 @@ include "header.php";
       <div class="wl-wrap"></div>
 
       <h5>DR. MATTHEW P. WICHMAN, MD</h5>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+      Specializing in Orthopedic Surgery<br>
       <a href="https://www.linkedin.com/in/matthew-wichman-md-1342b477" class="social linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a><br>
       <a href="matthew-wichman.php" class="more">READ FULL PROFILE</a>
     </div>
@@ -67,7 +67,7 @@ include "header.php";
       <div class="wr-wrap"></div>
 
       <h5>DR. MARK T. WICHMAN, MD</h5>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+      Specializing in Orthopedic Sports Medicine &amp; Orthopedic Surgery<br>
       <a href="https://www.linkedin.com/in/drmarkwichman" class="social linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a><br>
       <a href="mark-wichman.php" class="more">READ FULL PROFILE</a>
     </div>
@@ -78,11 +78,10 @@ include "header.php";
   <div class="site-width">
     <div class="col1">
       <h2>SPECIALIZING IN SPORTS MEDICINE</h2>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
+      Mark Wichman MD and Matthew Wichman MD have been practicing orthopedic surgeons for over 30 years combined. Both doctors have families, close ties to Southeastern Wisconsin and work closely with national sports teams. The doctors are focused on taking care of each patient, offering a varied and tailored diagnostic treatment unique to each individual.<br>
       <br>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br>
-      <br>
-      <a href="#">LEARN MORE</a>
+
+      <a href="sports-medicine.php">LEARN MORE</a>
     </div>
 
     <div class="col2">
