@@ -26,13 +26,7 @@
     </ul>
   </li>
   <li>
-    <a href="<?php echo $TopDir; ?>#" class="drop">PATIENT CARE</a>
-    <ul>
-      <li><a href="<?php echo $TopDir; ?>#">Diagnosis</a></li>
-      <li><a href="<?php echo $TopDir; ?>#">Pre-Op Care</a></li>
-      <li><a href="<?php echo $TopDir; ?>#">Procedures</a></li>
-      <li><a href="<?php echo $TopDir; ?>#">Post-Op Care</a></li>
-    </ul>
+    <a href="<?php echo $TopDir; ?>patient-care.php">PATIENT CARE</a>
   </li>
   <li class="contact">
     <a href="<?php echo $TopDir; ?>appointments.php">CONTACT</a>

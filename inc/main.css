@@ -1693,6 +1693,189 @@ DIV.social A {
   color: #939393;
 }
 
+.patient-care {
+  padding: 5em 0;
+  font-size: 17px;
+}
+
+.patient-care H3 {
+  font-size: 62px;
+  font-weight: bold;
+  color: #0E3749;
+  margin-bottom: 0.6em;
+}
+
+.patient-care H4 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1F80A9;
+  margin-bottom: 0.75em;
+}
+
+.patient-care A.orange-button:link,
+.patient-care A.orange-button:visited {
+  color: #F05A29;
+  margin-top: 1.5em;
+}
+
+.patient-care A.orange-button:hover,
+.patient-care A.orange-button:active {
+  color: #155B79;
+  border-color: #155B79;
+}
+
+.patient-care HR {
+  margin: 5em 0;
+  border-top-color: #E1E1E1;
+}
+
+.patient-care A.poci:link,
+.patient-care A.poci:visited {
+  color: #F05A29;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.patient-care A.poci:hover,
+.patient-care A.poci:active {
+  color: #155B79;
+}
+
+.patient-care A.poci:before {
+  font-family: 'FontAwesome';
+  content: "\f01a";
+  margin-right: 0.5em;
+  color: #C7C8CA;
+  font-weight: normal;
+}
+
+.patient-care > OL {
+  list-style-type: none;
+  counter-reset: item;
+}
+
+.patient-care > OL > LI {
+  position: relative;
+  padding-bottom: 1em;
+}
+
+.patient-care > OL > LI:before {
+  counter-increment: item;
+  content: counter(item) ".";
+  position: absolute;
+  left: -1.4em;
+  font-weight: bold;
+}
+
+.patient-care > OL > LI > UL {
+  list-style-type: none;
+}
+
+.patient-care > OL > LI > UL > LI {
+  padding: 1em 0 0;
+}
+
+.patient-care > OL > LI > UL > LI:before {
+  content: "-";
+  font-weight: normal;
+  margin-right: 0.5em;
+}
+
+.patient-care > UL {
+  list-style-type: none;
+}
+
+.patient-care > UL > LI {
+  padding: 0.4em 0;
+  position: relative;
+}
+
+.patient-care > UL > LI:before {
+  content: "-";
+  position: absolute;
+  left: -1em;
+}
+
+.patient-care > UL > LI > UL {
+  margin-top: 0.3em;
+  list-style-type: square;
+}
+
+.patient-care > UL > LI > UL > LI {
+  padding: 0.3em 0;
+}
+
+.patient-care > UL > LI > UL >LI > UL {
+  margin-top: 0.3em;
+  list-style-type: disc;
+}
+
+.patient-care > UL > LI > UL > LI > UL > LI {
+  padding: 0.3em 0;
+}
+
+.post-op-footer {
+  padding: 4em 0;
+  background: #1F80A9;
+  color: #FFFFFF;
+  font-size: 17px;
+  line-height: 1.8em
+}
+
+.post-op-footer H2 {
+  margin-bottom: 0.5em;
+  color: #002434;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 1em;
+}
+
+.post-op-footer .pof-left {
+  float: left;
+  width: 47%;
+}
+
+.post-op-footer .pof-right {
+  float: right;
+  width: 50%;
+  line-height: 1.4em;
+}
+
+.post-op-footer .pof-right UL {
+  margin-left: 1em;
+  list-style-type: none;
+}
+
+.post-op-footer .pof-right UL LI {
+  padding-top: 1.3em;
+}
+
+.post-op-footer .pof-right UL LI:first-child {
+  padding-top: 0;
+}
+
+.post-op-footer .pof-right A:link,
+.post-op-footer .pof-right A:visited {
+  color: #00354B;
+  font-weight: bold;
+  font-size: 22px;
+  position: relative;
+}
+
+.post-op-footer .pof-right A:hover,
+.post-op-footer .pof-right A:active {
+  color: #FFFFFF;
+}
+
+.post-op-footer .pof-right A:before {
+  font-family: 'FontAwesome';
+  content: "\f01a";
+  color: #C7C8CA;
+  font-weight: normal;
+  position: absolute;
+  left: -1.2em;
+}
+
 
 
 @media only screen and (max-width: 1086px) {
@@ -2250,6 +2433,10 @@ DIV.social A {
     height: 1em;
   }
 
+  .sub-header H2 {
+    font-size: 46px;
+  }
+
   .wichmans,
   .wichmans.gray {
     height: 280px;
@@ -2377,10 +2564,28 @@ DIV.social A {
   .checkbox LABEL:after {
     top: 0.2em;
   }
+
+  .patient-care H3 {
+    font-size: 56px;
+  }
+
+  .post-op-footer .pof-left,
+  .post-op-footer .pof-right {
+    float: none;
+    width: 100%;
+  }
+
+  .post-op-footer .pof-left {
+    margin-bottom: 2em;
+  }
 }
 
 @media only screen and (max-width: 390px) {
   /* Small Phone */
+  .sub-header H2 {
+    font-size: 38px;
+  }
+
   .wichman-left {
     padding-top: 0.7em;
   }
@@ -2419,5 +2624,9 @@ DIV.social A {
 
   .appointments-banner-footer H2 {
     font-size: 250%;
+  }
+
+  .patient-care H3 {
+    font-size: 46px;
   }
 }
