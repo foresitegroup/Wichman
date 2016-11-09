@@ -6,7 +6,7 @@
       <li><a href="<?php echo $TopDir; ?>matthew-wichman.php">Matthew Wichman, MD</a></li>
       <li><a href="<?php echo $TopDir; ?>appointments.php">Schedule Appointment</a></li>
       <li><a href="<?php echo $TopDir; ?>appointments.php#locations">Locations</a></li>
-      <li><a href="<?php echo $TopDir; ?>testimonials.php">Testimonials</a></li>
+      <li class="nofooter"><a href="<?php echo $TopDir; ?>testimonials.php">Testimonials</a></li>
     </ul>
   </li>
   <li>
@@ -23,10 +23,15 @@
       <li><a href="<?php echo $TopDir; ?>education.php#knee">Knee &amp; Lower Leg</a></li>
       <li><a href="<?php echo $TopDir; ?>education.php#hip">Hip &amp; Thigh</a></li>
       <li><a href="<?php echo $TopDir; ?>education.php#shoulder">Shoulder &amp; Elbow</a></li>
+      <li><a href="<?php echo $TopDir; ?>news/">News</a></li>
     </ul>
   </li>
   <li>
     <a href="<?php echo $TopDir; ?>patient-care.php">PATIENT CARE</a>
+    <ul>
+      <li><a href="<?php echo $TopDir; ?>patient-pre-op.php">Pre-Op</a></li>
+      <li><a href="<?php echo $TopDir; ?>patient-care.php#post-op">Post-Op</a></li>
+    </ul>
   </li>
   <li class="contact">
     <a href="<?php echo $TopDir; ?>appointments.php">CONTACT</a>

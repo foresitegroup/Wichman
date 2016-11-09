@@ -41,7 +41,7 @@ include "header.php";
     </div>
 
     <div class="link">
-      <a href="#" class="round-button">LEARN MORE</a>
+      <a href="shoulder.php" class="round-button">LEARN MORE</a>
     </div>
   </div>
 
@@ -55,7 +55,7 @@ include "header.php";
     </div>
 
     <div class="link">
-      <a href="#" class="round-button">LEARN MORE</a>
+      <a href="hip.php" class="round-button">LEARN MORE</a>
     </div>
   </div>
 </div>

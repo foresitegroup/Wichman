@@ -25,7 +25,7 @@ include "header.php";
 
   <hr>
 
-  <h3>POST-OPERATIVE CARE INSTRUCTIONS</h3>
+  <h3 id="post-op">POST-OPERATIVE CARE INSTRUCTIONS</h3>
 
   The following is a list of common procedures with post-op instructions for your reference. Please, as always follow the care of your medical professional.<br>
   <br>

@@ -42,7 +42,7 @@ include "header.php";
     </div>
 
     <div class="one-third">
-      <a href="#"><img src="images/banner-icon-postop.png" alt=""> POST-OP CARE</a>
+      <a href="patient-care.php#post-op"><img src="images/banner-icon-postop.png" alt=""> POST-OP CARE</a>
     </div>
 
     <div class="one-third">

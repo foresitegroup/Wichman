@@ -853,6 +853,10 @@ IMG.round {
   border-bottom: 1px solid #E1E1E1;
 }
 
+.dw-footer UL LI UL LI.nofooter {
+  display: none;
+}
+
 .dw-footer UL LI UL LI:first-child {
   border-top: 1px solid #E1E1E1;
 }
