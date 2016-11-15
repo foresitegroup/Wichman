@@ -1083,6 +1083,27 @@ DIV.social A {
   padding: 4em 0;
 }
 
+.sub-header A.sh-menu:link,
+.sub-header A.sh-menu:visited {
+  color: #FFFFFF;
+}
+
+.sub-header A.sh-menu:hover,
+.sub-header A.sh-menu:active {
+  color: #0E3749;;
+}
+
+.sub-header A.sh-menu:before {
+  content: "\00b7";
+  margin: 0 1em;
+  color: #FFFFFF;
+}
+
+.sub-header A.sh-menu:first-of-type:before {
+  content: "";
+  margin: 0;
+}
+
 .sub-footer {
   background: #F1F2F2;
   padding: 5em 0;
@@ -2122,6 +2143,12 @@ DIV.social A {
 
   .hip {
     width: 30%;
+  }
+
+  .sub-header A.sh-menu:before {
+    content: "\A";
+    white-space: pre;
+    margin: 0;
   }
 }
 

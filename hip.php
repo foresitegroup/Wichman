@@ -9,14 +9,203 @@ include "header.php";
 <div class="sub-header">
   <div class="site-width">
     <h2>THE HIP</h2>
-    The hip can cause problems when... Here are the most common hip problems seen in our patients:
+    The hip can cause problems when... Here are the most common hip problems seen in our patients:<br>
+    <br>
+
+    <a href="#fai" class="sh-menu">FEMEROACETABULAR IMPINGEMENT (FAI)</a>
+    <a href="#osteoarthritis" class="sh-menu">OSTEOARTHRITIS OF THE HIP</a>
+    <a href="#fractures" class="sh-menu">HIP FRACTURES</a>
   </div>
 </div>
 
 <div class="sports-medicine site-width">
+  <h4 id="fai">FEMEROACETABULAR IMPINGEMENT (FAI)</h4>
+  Femoroacetabular impingement (FAI) is a condition where the bones of the hip are abnormally shaped.  There is a mismatch between the ball (femoral head) and the socket (acetabulum) Because they do not fit together perfectly, the hip bones rub against each other and cause damage to the joint.<br>
+  <br>
+
   <img src="images/hip1.jpg" alt="" class="right">
 
-  <h4>HIP FRACTURES</h4>
+  <h5>Anatomy</h5>
+  The hip is a ball-and-socket joint. The socket is formed by the acetabulum, which is part of the large pelvis bone. The ball is the femoral head, which is the upper end of the femur (thighbone).<br>
+  <br>
+
+  A slippery tissue called articular cartilage covers the surface of the ball and the socket. It creates a smooth, low friction surface that helps the bones glide easily across each other.<br>
+  <br>
+
+  The acetabulum is ringed by strong fibrocartilage called the labrum. The labrum forms a gasket around the socket, creating a tight seal and helping to provide stability to the joint.<br>
+  <br>
+
+  In a healthy hip, the femoral head fits perfectly into the acetabulum.<br>
+  <br>
+
+  <h5>Description</h5>
+  In FAI, extra bone develops around the femoral head and/or along the acetabulum. The bone overgrowth causes the hip bones to rub against each other, rather than to move smoothly. Over time, this can result in the tearing of the labrum and breakdown of articular cartilage (osteoarthritis).<br>
+  <br>
+  <br>
+
+  <hr>
+  <br>
+  <br>
+
+  <h4>TYPES OF FAI</h4>
+  There are three types of FAI: pincer, cam, and combined impingement.<br>
+  <br>
+
+  <strong>Pincer:</strong> This type of impingement occurs because extra bone extends out over the normal rim of the acetabulum. The labrum can be crushed under the prominent rim of the acetabulum.<br>
+  <br>
+
+  <strong>Cam:</strong> In cam impingement the femoral head is not round and cannot rotate smoothly inside the acetabulum. A bump forms on the edge of the femoral head that grinds the cartilage inside the acetabulum.<br>
+  <br>
+
+  <strong>Combined/Mixed:</strong> Combined impingement just means that both the pincer and cam types are present.<br>
+  <br>
+
+  <img src="images/hip13.jpg" alt=""><br>
+  <br>
+
+  <h5>How FAI Progresses</h5>
+  It is not known how many people may have FAI. Some people may live long, active lives with FAI and never have problems. When symptoms develop, however, it usually indicates that there is damage to the cartilage or labrum and the disease is likely to progress. Symptoms may include pain, stiffness, and limping.<br>
+  <br>
+
+  <h5>Cause</h5>
+  FAI occurs because the hip bones do not form normally during the childhood growing years. It is the deformity of a cam bone spur, pincer bone spur, or both, that leads to joint damage and pain. When the hip bones are shaped abnormally, there is little that can be done to prevent FAI.<br>
+  <br>
+
+  Because athletically active people may work the hip joint more vigorously, they may begin to experience pain earlier than those who are less active. However, exercise does not cause FAI.<br>
+  <br>
+
+  <h5>Symptoms</h5>
+  People with FAI usually have pain in the groin area, although the pain sometimes may be more toward the outside of the hip. Sharp stabbing pain may occur with turning, twisting, and squatting, but sometimes, it is just a dull ache.<br>
+  <br>
+
+  <h5>Home Remedies</h5>
+  When symptoms first occur, it is helpful to try and identify an activity or something you may have done that could have caused the pain. Sometimes, you can just back off on your activities, let your hip rest, and see if the pain will settle down. Over-the-counter anti-inflammatory medicines (ibuprofen, naproxen) may help.<br>
+  <br>
+
+  If your symptoms persist, you will need to see a doctor to determine the exact cause of your pain and provide treatment options. The longer painful symptoms go untreated, the more damage FAI can cause in the hip.<br>
+  <br>
+
+  <h5>Doctor Examination</h5>
+  During your first appointment, Dr. Wichman will discuss your general health and your hip symptoms. He or she will also examine your hip.<br>
+  <br>
+
+  <h5>Impingement Test</h5>
+  As part of the physical examination, Dr. Wichman will likely conduct the impingement test. For this test, Dr. Wichman will bring your knee up towards your chest and then rotate it inward towards your opposite shoulder. If this recreates your hip pain, the test result is positive for impingement.<br>
+  <br>
+
+  <h5>Imaging Tests</h5>
+  Dr. Wichman may order imaging tests to help determine whether you have FAI.<br>
+  <br>
+
+  <strong>X-rays:</strong> These provide good images of bone, and will show whether your hip has abnormally shaped bones of FAI. X-rays can also show signs of arthritis.<br>
+  <br>
+
+  <strong>Magnetic resonance imaging (MRI) scans:</strong> These studies can create better images of soft tissue. They will help Dr. Wichman find damage to the labrum and articular cartilage. Injecting dye into the joint during the MRI may make the damage show up more clearly. Dr. Wichman may also inject a numbing medicine into the joint as a diagnostic test. If the numbing medicine provides temporary pain relief, it confirms that FAI is the problem.<br>
+  <br>
+
+  <strong>Computed tomography (CT) scans:</strong> More detailed than a plain x-ray, CT scans help Dr. Wichman see the exact abnormal shape of your hip.<br>
+  <br>
+  <br>
+
+  <hr>
+  <br>
+  <br>
+
+  <h4>TREATMENT OPTIONS</h4>
+  <h5>Nonsurgical Treatment</h5>
+  <strong>Activity changes:</strong> Dr. Wichman may first recommend simply changing your daily routine and avoiding activities that cause symptoms.<br>
+
+  <strong>Non-steroidal anti-inflammatory medications:</strong> Drugs like ibuprofen can be provided in a prescription-strength form to help reduce pain and inflammation.<br>
+  <br>
+
+  <strong>Physical therapy:</strong> Specific exercises can improve the range of motion in your hip and strengthen the muscles that support the joint. This can relieve some stress on the injured labrum or cartilage.<br>
+  <br>
+
+  <h5>Surgical Treatment</h5>
+  If tests show joint damage caused by FAI and your pain is not relieved by nonsurgical treatment, Dr. Wichman may recommend surgery.<br>
+  <br>
+
+  Many FAI problems can be treated with arthroscopic surgery. Arthroscopic procedures are done with small incisions and thin instruments. The surgeon uses a small camera, called an arthroscope, to view inside the hip.<br>
+  <br>
+
+  During arthroscopy, Dr. Wichman can repair or clean out any damage to the labrum and articular cartilage. He can correct the FAI by trimming the bony rim of the acetabulum and also shaving down the bump on the femoral head. Some severe cases may require a labral reconstruction, where Dr. Wichman will replace your labrum with other tissue to re-create the function of your labrum.<br>
+  <br>
+  <br>
+
+  <hr>
+  <br>
+  <br>
+
+  <h4 id="osteoarthritis">OSTEOARTHRITIS OF THE HIP</h4>
+  Osteoarthritis of the hip is the loss of articular cartilage in the hip joint.<br>
+  <br>
+
+  Patients with osteoarthritis of the hip typically complain of pain in the groin, buttock, and thigh, described as a dull ache and throbbing pain that is worse when standing, sitting, and walking. Patients report noticing a decrease in the range of motion, and sometimes difficulty putting on socks and shoes. People also complain of pain at night and pain that causes them to limp when walking.<br>
+  <br>
+
+  Osteoarthritis can be diagnosed by plain X-rays. Treatment for osteoarthritis of the hip varies. The initial treatment consists of NSAIDs (non-steroidal anti-inflammatories, such as ibuprofen, Advil, Aleve, etc.) and application of ice to relieve the pain and inflammation in the hip joint. If loss of motion has occurred, stretching exercises or physical therapy is recommended to maintain range of motion. Steroid injections are often provided for symptomatic relief; Dr. Wichman is often able to perform these injections in the office under ultrasound guidance.<br>
+  <br>
+
+  If the osteoarthritis is advanced and conservative treatment has failed, often a total hip replacement is necessary for pain relief and return to function.<br>
+  <br>
+
+  In a total hip replacement (also called total hip arthroplasty), the damaged bone and cartilage is removed and replaced with prosthetic components.<br>
+  <ul>
+    <li>The damaged femoral head is removed and replaced with a metal stem that is placed into the hollow center of the femur. The femoral stem may be either cemented or "press fit" into the bone.</li>
+    <li>A metal or ceramic ball is placed on the upper part of the stem. This ball replaces the damaged femoral head that was removed.</li>
+    <li>The damaged cartilage surface of the socket (acetabulum) is removed and replaced with a metal socket. Screws or cement are sometimes used to hold the socket in place.</li>
+    <li>A plastic, ceramic, or metal spacer is inserted between the new ball and the socket to allow for a smooth gliding surface.</li>
+  </ul>
+  <br>
+
+  <img src="images/hip14.jpg" alt=""><br>
+  <br>
+
+  <h5>Is Hip Replacement Surgery for You?</h5>
+  The decision to have hip replacement surgery should be a cooperative one made by you, your family, your primary care doctor, and your orthopaedic surgeon.<br>
+  <br>
+
+  <h5>Candidates for Surgery</h5>
+  There are no absolute age or weight restrictions for total hip replacements.<br>
+  <br>
+
+  Recommendations for surgery are based on a patient's pain and disability, not age. Most patients who undergo total hip replacement are age 50 to 80, but orthopaedic surgeons evaluate patients individually. Total hip replacements have been performed successfully at all ages, from the young teenager with juvenile arthritis to the elderly patient with degenerative arthritis.<br>
+  <br>
+
+  <h5>When Surgery Is Recommended</h5>
+  There are several reasons why your doctor may recommend hip replacement surgery. People who benefit from hip replacement surgery often have:<br>
+  <ul>
+    <li>Hip pain that limits everyday activities, such as walking or bending</li>
+    <li>Hip pain that continues while resting, either day or night</li>
+    <li>Stiffness in a hip that limits the ability to move or lift the leg</li>
+    <li>Inadequate pain relief from anti-inflammatory drugs, physical therapy, or walking supports</li>
+  </ul>
+  <br>
+
+  <h5>The Orthopaedic Evaluation</h5>
+  An evaluation with an orthopaedic surgeon consists of several components.<br>
+  <br>
+
+  <strong>Medical history:</strong> Your orthopaedic surgeon will gather information about your general health and ask questions about the extent of your hip pain and how it affects your ability to perform everyday activities.<br>
+  <br>
+
+  <strong>Physical examination:</strong> This will assess hip mobility, strength, and alignment.<br>
+  <br>
+
+  <strong>X-rays:</strong> These images help to determine the extent of damage or deformity in your hip.<br>
+  <br>
+
+  <strong>Other tests:</strong> Occasionally other tests, such as a magnetic resonance imaging (MRI) scan, may be needed to determine the condition of the bone and soft tissues of your hip.<br>
+  <br>
+  <br>
+
+  <hr>
+  <br>
+  <br>
+
+  <img src="images/hip1.jpg" alt="" class="right">
+
+  <h4 id="fractures">HIP FRACTURES</h4>
   A hip fracture is a break in the upper quarter of the femur (thigh) bone. The extent of the break depends on the forces that are involved. The type of surgery used to treat a hip fracture is primarily based on the bones and soft tissues affected or on the level of the fracture.<br>
   <br>
   <br>
