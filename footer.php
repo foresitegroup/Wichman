@@ -6,7 +6,7 @@
 
         <div class="social">
           <a href="#" class="social youtube"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-          <a href="#" class="social linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/company/dr.-wichman-sports-medicine" class="social linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
           <a href="#" class="social facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
         </div>
 
