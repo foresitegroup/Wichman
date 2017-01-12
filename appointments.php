@@ -80,7 +80,7 @@ include "header.php";
     </div>
   </div>
   
-  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8yPmIdYf0WKeSslXyYIrbxqUlrSANimM"></script>
   <script>
     function initialize() {
       var map;
