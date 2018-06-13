@@ -95,7 +95,7 @@ include "header.php";
   </div>
 </div>
 
-<div class="news-home">
+<!-- <div class="news-home">
   <div class="site-width">
     <div class="header">
       IN THE NEWS
@@ -104,37 +104,37 @@ include "header.php";
 
     <div class="col1">
       <?php
-      require('news/wp-blog-header.php');
+      // require('news/wp-blog-header.php');
 
-      $posts = get_posts('posts_per_page=1&order=DESC&orderby=date');
-      foreach ($posts as $post) :
-        setup_postdata( $post );
+      // $posts = get_posts('posts_per_page=1&order=DESC&orderby=date');
+      // foreach ($posts as $post) :
+      //   setup_postdata( $post );
         ?>
-        <div class="post-date"><?php the_date(); ?></div>
-        <h3><?php the_title(); ?></h3>
-        <?php echo excerpt(72); ?><br>
-        <a href="<?php the_permalink() ?>" class="readmore">READ MORE</a>
+        <div class="post-date"><?php //the_date(); ?></div>
+        <h3><?php //the_title(); ?></h3>
+        <?php //echo excerpt(72); ?><br>
+        <a href="<?php //the_permalink() ?>" class="readmore">READ MORE</a>
       <?php
-      endforeach;
+      //endforeach;
       ?>
     </div>
 
     <div class="col2">
       <?php
-      $posts = get_posts('posts_per_page=1&order=DESC&orderby=date&offset=1');
-      foreach ($posts as $post) :
-        setup_postdata( $post );
+      // $posts = get_posts('posts_per_page=1&order=DESC&orderby=date&offset=1');
+      // foreach ($posts as $post) :
+      //   setup_postdata( $post );
         ?>
-        <div class="post-date"><?php the_date(); ?></div>
-        <h3><?php the_title(); ?></h3>
-        <?php echo excerpt(72); ?><br>
-        <a href="<?php the_permalink() ?>" class="readmore">READ MORE</a>
+        <div class="post-date"><?php //the_date(); ?></div>
+        <h3><?php //the_title(); ?></h3>
+        <?php //echo excerpt(72); ?><br>
+        <a href="<?php //the_permalink() ?>" class="readmore">READ MORE</a>
       <?php
-      endforeach;
+      //endforeach;
       ?>
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="testimonials-home">
   <div class="cycle-slideshow site-width" data-cycle-slides="> div" data-cycle-timeout="8000" data-cycle-pause-on-hover="true" data-cycle-pager-template="<span></span>">

@@ -23,7 +23,7 @@
       <li><a href="<?php echo $TopDir; ?>education.php#knee">Knee &amp; Lower Leg</a></li>
       <li><a href="<?php echo $TopDir; ?>education.php#hip">Hip &amp; Thigh</a></li>
       <li><a href="<?php echo $TopDir; ?>education.php#shoulder">Shoulder &amp; Elbow</a></li>
-      <li><a href="<?php echo $TopDir; ?>news/">News</a></li>
+      <!-- <li><a href="<?php //echo $TopDir; ?>news/">News</a></li> -->
     </ul>
   </li>
   <li>

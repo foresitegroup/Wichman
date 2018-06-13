@@ -619,9 +619,9 @@ IMG.round {
   font-size: 106.25%;
   line-height: 1.5em;
   padding: 5em 0;
-  -webkit-box-shadow: inset 0 7px 9px -4px rgba(25, 25, 25, 0.2);
+/*  -webkit-box-shadow: inset 0 7px 9px -4px rgba(25, 25, 25, 0.2);
   -moz-box-shadow: inset 0 7px 9px -4px rgba(25, 25, 25, 0.2);
-  box-shadow: inset 0 7px 9px -4px rgba(25, 25, 25, 0.2);
+  box-shadow: inset 0 7px 9px -4px rgba(25, 25, 25, 0.2);*/
 }
 
 .content-home .col1 {
@@ -770,9 +770,9 @@ IMG.round {
   padding: 3em 0;
   text-align: center;
   font-size: 112.5%;
-  -webkit-box-shadow: inset 0 7px 9px -4px rgba(25, 25, 25, 0.2);
+/*  -webkit-box-shadow: inset 0 7px 9px -4px rgba(25, 25, 25, 0.2);
   -moz-box-shadow: inset 0 7px 9px -4px rgba(25, 25, 25, 0.2);
-  box-shadow: inset 0 7px 9px -4px rgba(25, 25, 25, 0.2);
+  box-shadow: inset 0 7px 9px -4px rgba(25, 25, 25, 0.2);*/
 }
 
 .testimonials-home .cycle-slideshow {
