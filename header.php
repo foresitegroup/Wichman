@@ -11,8 +11,8 @@ if (!isset($TopDir)) $TopDir = "";
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $TopDir; ?>images/favicon.ico">
     <link rel="apple-touch-icon" href="<?php echo $TopDir; ?>images/apple-touch-icon.png">
 
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="Mark Wichman MD and Matthew Wichman MD have been practicing orthopedic surgeons for over 30 years combined. Both doctors have families and close ties to Southeastern Wisconsin. Both Wichmans specialize in Sports Medicine and work closely with local and national sports teams.">
+    <meta name="keywords" content="orthopedic surgeons, sports medicine, hip, knee, shoulder, arthritis, replacement, Wichman, rotator cuff, impingement, team doctor">
     <meta name="author" content="Foresite Group">
 
     <meta name="viewport" content="width=device-width">
